@@ -9,23 +9,36 @@
   },
   {
     "artist": "서동진",
-    "status": "downloaded",
-    "file": "assets/artworks/artist-03.webp",
-    "bytes": 46122
+    "status": "cached"
   },
   {
     "artist": "정점식",
-    "status": "downloaded",
-    "file": "assets/artworks/artist-13.webp",
-    "bytes": 28432
+    "status": "cached"
   },
   {
     "artist": "곽인식",
     "status": "cached"
   },
   {
+    "artist": "김우조",
+    "status": "downloaded",
+    "file": "assets/artworks/artist-16.webp",
+    "bytes": 92330
+  },
+  {
+    "artist": "이영륭",
+    "status": "downloaded",
+    "file": "assets/artworks/artist-19.webp",
+    "bytes": 67228
+  },
+  {
     "artist": "이강소",
     "status": "cached"
+  },
+  {
+    "artist": "최병소",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
   },
   {
     "artist": "이명미",
@@ -37,9 +50,7 @@
   },
   {
     "artist": "이영철",
-    "status": "downloaded",
-    "file": "assets/artworks/artist-33.webp",
-    "bytes": 125866
+    "status": "cached"
   },
   {
     "artist": "장이규",

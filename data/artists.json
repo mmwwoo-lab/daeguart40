@@ -535,7 +535,8 @@
       "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
       "image_source_url": "https://www.imaeil.com/photos/2026/03/27/2026032715410572303_l.jpg",
       "image_attribution_url": "https://www.imaeil.com/page/view/2026032716022853158",
-      "image_status": "매일신문 인당뮤지엄 전시 작품 사진 수집 예정"
+      "image_status": "GitHub 저장 파일 등록 완료",
+      "image": "assets/artworks/artist-16.webp"
     },
     {
       "order": 17,
@@ -628,7 +629,8 @@
       "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
       "image_source_url": "https://www.imaeil.com/photos/2021/08/28/2021082814082641930_l.jpg",
       "image_attribution_url": "https://www.imaeil.com/page/view/2021082814091405603",
-      "image_status": "신문 전시 캡션 작품 이미지 소스 확인"
+      "image_status": "GitHub 저장 파일 등록 완료",
+      "image": "assets/artworks/artist-19.webp"
     },
     {
       "order": 20,
@@ -757,7 +759,7 @@
       "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
       "image_source_url": "https://www.koreadaily.com/data/photo/2026/02/18/606695f9-30cb-433e-9322-8b44b7dcf788.jpg",
       "image_attribution_url": "https://www.koreadaily.com/article/20260217184004395",
-      "image_status": "전시 기사를 통해 작품 및 이미지 일치 확인"
+      "image_status": "이미지 다운로드 오류 — 공개 출처 링크 확인"
     },
     {
       "order": 24,
