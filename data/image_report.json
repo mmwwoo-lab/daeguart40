@@ -17,12 +17,16 @@
   },
   {
     "artist": "이명미",
-    "status": "downloaded",
-    "file": "assets/artworks/artist-24.webp",
-    "bytes": 244530
+    "status": "cached"
   },
   {
     "artist": "박현기",
     "status": "cached"
+  },
+  {
+    "artist": "장이규",
+    "status": "downloaded",
+    "file": "assets/artworks/artist-34.webp",
+    "bytes": 46898
   }
 ]
