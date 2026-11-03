@@ -11,8 +11,46 @@ DATA=ROOT/"data/artists.json"
 DEST=ROOT/"assets/artworks"
 DEST.mkdir(parents=True,exist_ok=True)
 data=json.loads(DATA.read_text(encoding="utf-8"))
+from html.parser import HTMLParser
+from urllib.parse import urljoin, urlsplit
+import html as htmlmod
+class ImageExtractor(HTMLParser):
+    def __init__(self):
+        super().__init__(); self.images=[]
+    def handle_starttag(self,tag,attrs):
+        if tag not in ("img","source"):return
+        x=dict(attrs)
+        label=htmlmod.unescape(x.get("alt","")+" "+x.get("title",""))
+        urls=[x.get(k,"") for k in ("data-original","data-src","data-lazy-src","src")]
+        self.images.append((label,[u for u in urls if u]))
+def find_exact_captions(article,artist,title):
+    try:
+        req=urllib.request.Request(article,headers={"User-Agent":"Mozilla/5.0","Accept":"text/html"})
+        with urllib.request.urlopen(req,timeout=18) as resp:
+            raw=resp.read(4_000_000)
+        doc=raw.decode("utf-8","replace")
+        parser=ImageExtractor();parser.feed(doc)
+        matches=[]
+        for label,urls in parser.images:
+            if title.lower() not in label.lower() or artist.lower() not in label.lower():continue
+            for u in urls:
+                u=urljoin(article,htmlmod.unescape(u))
+                if u.startswith("https://") and not u.lower().endswith(".svg"):
+                    matches.append((label,u))
+        return matches
+    except Exception as exc:
+        print("CAPTION SCRAPE ERROR",artist,str(exc)[:180])
+        return []
+
 report=[]
 for item in data["artists"]:
+    if not item.get("image_source_url") and item.get("image_article_source") and item.get("image_expected_caption"):
+        exact=find_exact_captions(item["image_article_source"],item["name"],item["image_expected_caption"])
+        print("CAPTION MATCH",item["name"],len(exact),[(a[:85],u[:100]) for a,u in exact[:4]])
+        if len(exact)==1:
+            item["image_source_url"]=exact[0][1]
+            item["image_attribution_url"]=item["image_article_source"]
+            item["image_status"]="신문 이미지 alt에 작가명·작품명 일치 확인"
     url=item.get("image_source_url","")
     if not url.startswith("https://"):continue
     path=DEST/("artist-%02d.webp"%item["order"])
