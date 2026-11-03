@@ -293,16 +293,16 @@
       "room_title": "대구 근대미술의 개척자",
       "status": "선정 후보 — 작품 실물·권리·정확한 소속 검증 전",
       "work": {
-        "title": "사정(射程)",
-        "year": "1958",
-        "medium": "캔버스에 유화 물감",
-        "dimensions": "90.4 × 65.6 cm",
-        "source": "https://www.mmca.go.kr/collections/collectionsDetailPage.do?wrkinfoSeqno=8997",
-        "institution": "국립현대미술관 소장품",
-        "verification": "공공기관 소장품 또는 전시기록",
-        "image_usage": "전시 기획자 사용권 확인"
+        "title": "작품",
+        "year": "1965",
+        "medium": "혼합재료",
+        "dimensions": "204 × 154 cm",
+        "source": "https://www.imaeil.com/page/view/2022081514112042675",
+        "institution": "봉산문화회관 《대구 추상, 모험과 실현의 순간들》",
+        "verification": "전시 기사 작품 캡션과 동일 이미지",
+        "image_usage": "전시 기획자 사용권 확보 확인"
       },
-      "work_review": "밝은 색의 바탕 위에 검은 물감의 거친 물질감이 덩어리처럼 압축된다. 흩뿌린 물감과 폭발하는 듯한 붓질은 대상의 윤곽을 벗어나 행위의 시간을 드러낸다. 1950년대 후반 한국 추상미술이 획득한 긴장과 해방의 감각을 담은 작품이다.",
+      "work_review": "검은색의 밀도 높은 거친 붓질이 청색 화면을 가로지르고, 붓자국 사이로 노랑과 분홍의 빛이 드러난다. 화면의 질서와 우연한 물감의 번짐이 충돌하면서 앵포르멜 회화의 자유를 구현한다. 대상 없는 조형 자체가 감정과 시간의 흔적이 되는 작품이다.",
       "work_status": "대표작 제원 확인 중",
       "biography": "대구 근대미술 전개 과정에서 인물화의 시선과 형식을 탐구한 화가다. 서양화가 정착하던 지역 미술의 성장기를 이해하는 하나의 단서가 된다.",
       "critique": "인물의 비례와 얼굴의 표정은 근대 화가들이 새롭게 습득한 조형 문법을 보여 준다. 동시에 대상과의 거리, 화면의 침묵은 개별적 정서를 남긴다. 인물화의 표현에서 지역 근대미술의 변화를 읽는다.",
@@ -313,7 +313,10 @@
         "image_saved": false,
         "image_note": null
       },
-      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준"
+      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
+      "image_source_url": "https://www.imaeil.com/photos/2022/08/11/2022081116121119680_m.jpg",
+      "image_attribution_url": "https://www.imaeil.com/page/view/2022081514112042675",
+      "image_status": "1965년 작품 전시 이미지 일치 확인"
     },
     {
       "order": 10,
