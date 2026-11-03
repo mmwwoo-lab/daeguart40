@@ -38,7 +38,7 @@ for item in data["artists"]:
     except Exception as exc:
         item["image_status"]="이미지 다운로드 오류 — 공개 출처 링크 확인"
         report.append({"artist":item["name"],"status":"failed","error":str(exc)[:250]})
-    time.sleep(.2)
+    time.sleep(.15)
 
 DATA.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 INDEX=ROOT/"index.html"
