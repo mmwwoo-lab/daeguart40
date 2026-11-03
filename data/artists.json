@@ -453,16 +453,16 @@
       "room_title": "대구 현대미술의 성장과 확장",
       "status": "선정 후보 — 작품 실물·권리·정확한 소속 검증 전",
       "work": {
-        "title": null,
-        "medium": null,
-        "dimensions": null,
-        "year": null,
-        "source": null,
-        "image_url": null,
-        "verification": "공개 자료의 작품 제원 미확인",
+        "title": "오리가 있는 풍경",
+        "year": "1976",
+        "medium": "캔버스에 유채",
+        "dimensions": "85.7 × 85.7 cm",
+        "source": "https://www.imaeil.com/page/view/2021042817183597418",
+        "institution": "대구미술관 이건희 컬렉션 기증 보도",
+        "verification": "공개 전시 기사에 작품 캡션·제원 동시 기재",
         "image_usage": "전시 기획자 사용권 확보 확인"
       },
-      "work_review": "",
+      "work_review": "오리와 자연 풍경의 조화는 일상의 평범한 장면에 우화적 정서를 부여한다. 단순한 형상과 색채의 절제로 구상 속 상상의 여백을 넓히며, 생명의 이야기를 은근한 상징으로 끌어올린다.",
       "work_status": "대표작 제원 확인 중",
       "biography": "경북 출신으로 대구와 한국 현대회화의 흐름 속에서 활동한 화가다. 인물과 동물, 우화적 장면을 통해 현실을 은유하는 조형 세계를 펼쳤다.",
       "critique": "익숙한 형상이 낯선 표정으로 재배치되면서 화면은 현실과 상상이 겹친 무대가 된다. 색의 대비와 상징은 직접적인 설명을 피하면서도 시대적 정서를 전한다. 그의 그림은 이야기의 의미를 관람자에게 맡긴다.",
@@ -473,7 +473,10 @@
         "image_saved": false,
         "image_note": null
       },
-      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준"
+      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
+      "image_article_source": "https://www.imaeil.com/page/view/2021042817183597418",
+      "image_expected_caption": "오리가 있는 풍경",
+      "image_status": "출처 문서에 작품 이미지 캡션 확인 · 원본 파일 추출 전"
     },
     {
       "order": 15,
@@ -850,16 +853,16 @@
       "room_title": "대구 현대·실험미술의 선구자",
       "status": "선정 후보 — 작품 실물·권리·정확한 소속 검증 전",
       "work": {
-        "title": null,
-        "medium": null,
-        "dimensions": null,
-        "year": null,
-        "source": null,
-        "image_url": null,
-        "verification": "공개 자료의 작품 제원 미확인",
+        "title": "KALPA SOUNDⅠ",
+        "year": "1994",
+        "medium": "캔버스에 유채",
+        "dimensions": "180 × 152 cm",
+        "source": "https://www.imaeil.com/page/view/2025051214464658624",
+        "institution": "대구문화예술회관 소장품 순회전",
+        "verification": "공개 전시 기사에 작품 캡션·제원 동시 기재",
         "image_usage": "전시 기획자 사용권 확보 확인"
       },
-      "work_review": "",
+      "work_review": "화면에서 교차하는 힘과 흔적은 소리의 파동처럼 공간에 번진다. 캔버스 위 색의 밀도와 회화적 몸짓은 보이지 않는 에너지를 감각적으로 드러낸다. 시간과 우주, 정신의 울림을 물질의 층위로 전환하는 작품이다.",
       "work_status": "대표작 제원 확인 중",
       "biography": "대구·경북과 연결되는 현대회화의 흐름 속에서 회화적 몸짓과 물질성을 크게 확장한 작가다. 자유로운 필획과 색의 층위를 통해 에너지를 드러낸다.",
       "critique": "커다란 화면에 남은 선과 색의 충돌은 사물의 모습을 설명하기보다 몸의 움직임을 전달한다. 화면은 이미지의 결과물이면서 동시에 행위의 기록이다. 에너지의 방향과 물질적 흔적이 작품의 구조를 이룬다.",
@@ -870,7 +873,10 @@
         "image_saved": false,
         "image_note": null
       },
-      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준"
+      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
+      "image_article_source": "https://www.imaeil.com/page/view/2025051214464658624",
+      "image_expected_caption": "KALPA SOUNDⅠ",
+      "image_status": "출처 문서에 작품 이미지 캡션 확인 · 원본 파일 추출 전"
     },
     {
       "order": 27,
@@ -880,16 +886,16 @@
       "room_title": "대구 현대·실험미술의 선구자",
       "status": "선정 후보 — 작품 실물·권리·정확한 소속 검증 전",
       "work": {
-        "title": null,
-        "medium": null,
-        "dimensions": null,
-        "year": null,
-        "source": null,
-        "image_url": null,
-        "verification": "공개 자료의 작품 제원 미확인",
+        "title": "Painting 1975-B",
+        "year": "1975",
+        "medium": "캔버스에 유채",
+        "dimensions": "60.6 × 50 cm",
+        "source": "https://www.imaeil.com/page/view/2022103113053622552",
+        "institution": "대구미술관 소장품 수집 보도",
+        "verification": "공개 전시 기사에 작품 캡션·제원 동시 기재",
         "image_usage": "전시 기획자 사용권 확보 확인"
       },
-      "work_review": "",
+      "work_review": "기하학적인 면과 절제된 색의 관계가 화면의 긴장을 만든다. 재현적 풍경을 지운 자리에 회화 그 자체의 물성과 구성 원리가 나타난다. 1970년대 대구 현대미술이 추구한 실험정신과 구조적 사유를 압축한다.",
       "work_status": "대표작 제원 확인 중",
       "biography": "대구현대미술제와 연관된 실험미술 흐름에서 사물과 공간의 관계를 탐색한 작가다. 관습적인 회화의 틀을 넘어 설치와 개념적 접근으로 시선을 넓혔다.",
       "critique": "사물을 둘러싼 공간과 그 관계 자체를 작품의 일부로 보게 한다. 무엇을 그렸는가보다 어떤 조건에서 보게 되는가를 묻는 질문이 중요하다. 물성과 장소성이 만나는 순간의 인식 변화에 주목한다.",
@@ -900,7 +906,10 @@
         "image_saved": false,
         "image_note": null
       },
-      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준"
+      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
+      "image_article_source": "https://www.imaeil.com/page/view/2022103113053622552",
+      "image_expected_caption": "Painting 1975-B",
+      "image_status": "출처 문서에 작품 이미지 캡션 확인 · 원본 파일 추출 전"
     },
     {
       "order": 28,
@@ -1032,16 +1041,16 @@
       "source_url": "https://www.hidomin.com/news/articleView.html?idxno=727817",
       "status": "신규 선정 — 대표작·권리·약력 개별 검수 전",
       "work": {
-        "title": null,
-        "medium": null,
-        "dimensions": null,
-        "year": null,
-        "source": null,
-        "image_url": null,
-        "verification": "공개 자료의 작품 제원 미확인",
+        "title": "눈길을 걸으며",
+        "year": "2026",
+        "medium": "한지에 수묵담채",
+        "dimensions": "123 × 85 cm",
+        "source": "https://www.imaeil.com/page/view/2026102913015620474",
+        "institution": "매일신문·대백프라자갤러리 초대전",
+        "verification": "공개 전시 기사에 작품 캡션·제원 동시 기재",
         "image_usage": "전시 기획자 사용권 확보 확인"
       },
-      "work_review": "",
+      "work_review": "겨울 길에 남겨진 걸음의 흔적은 차가운 공기 속 인간의 온기를 떠올리게 한다. 수묵의 농담과 절제된 담채는 계절의 고요와 움직임을 함께 품는다. 자연의 외형보다 그 안에서 건져 올린 사유가 화면의 중심을 이룬다.",
       "work_status": "대표작 제원 확인 중",
       "biography": "대구·경북 화단에서 산수의 필묵과 여백을 탐구해 온 작가다. 전통적인 자연 관찰을 바탕으로 화면의 고요와 긴장을 조율한다.",
       "critique": "먹의 농담과 붓의 강약은 산의 물리적 형상보다 기운과 정서를 전달한다. 비워 둔 공간 역시 풍경의 일부로 작동한다. 전통 산수의 형식을 반복하기보다 현대 관람자의 감각으로 다시 읽게 하는 시도가 중요하다.",
@@ -1052,7 +1061,10 @@
         "image_saved": false,
         "image_note": null
       },
-      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준"
+      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
+      "image_article_source": "https://www.imaeil.com/page/view/2026102913015620474",
+      "image_expected_caption": "눈길을 걸으며",
+      "image_status": "출처 문서에 작품 이미지 캡션 확인 · 원본 파일 추출 전"
     },
     {
       "order": 33,
@@ -1268,16 +1280,16 @@
       "source_url": "https://www.insaauction.com/service/author_view.html?idx=3426",
       "status": "신규 선정 — 대표작·권리·약력 개별 검수 전",
       "work": {
-        "title": null,
-        "medium": null,
-        "dimensions": null,
-        "year": null,
-        "source": null,
-        "image_url": null,
-        "verification": "공개 자료의 작품 제원 미확인",
+        "title": "농악춤",
+        "year": "1998",
+        "medium": "캔버스에 아크릴",
+        "dimensions": "145 × 336 cm",
+        "source": "https://www.imaeil.com/page/view/2022042912091122028",
+        "institution": "대구문화예술회관 소장작품 순회전",
+        "verification": "공개 전시 기사에 작품 캡션·제원 동시 기재",
         "image_usage": "전시 기획자 사용권 확보 확인"
       },
-      "work_review": "",
+      "work_review": "농악의 역동적인 몸짓은 화면을 가로지르는 리듬으로 확장된다. 여러 인물의 움직임이 이어지며 공동체의 흥과 생명력이 하나의 조형 질서를 만든다. 전통문화의 일상성을 현대적 색과 구성으로 옮긴 표현이 돋보인다.",
       "work_status": "대표작 제원 확인 중",
       "biography": "대구 지역의 구상회화와 미술교육의 흐름을 함께 살피게 하는 작가다. 관찰을 바탕으로 사물과 풍경의 질서를 화면에 담아왔다.",
       "critique": "대상을 향한 꾸준한 관찰은 소재를 기교로 치환하는 것을 넘어 한 시대의 미감을 남긴다. 화면의 안정된 구성과 색의 균형은 구상회화의 설득력을 보여 준다. 지역 미술의 지속성을 되새기게 한다.",
@@ -1288,7 +1300,10 @@
         "image_saved": false,
         "image_note": null
       },
-      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준"
+      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
+      "image_article_source": "https://www.imaeil.com/page/view/2022042912091122028",
+      "image_expected_caption": "농악춤",
+      "image_status": "출처 문서에 작품 이미지 캡션 확인 · 원본 파일 추출 전"
     },
     {
       "order": 40,
