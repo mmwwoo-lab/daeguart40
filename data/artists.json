@@ -601,16 +601,16 @@
       "room_title": "대구 현대미술의 성장과 확장",
       "status": "선정 후보 — 작품 실물·권리·정확한 소속 검증 전",
       "work": {
-        "title": null,
-        "medium": null,
-        "dimensions": null,
-        "year": null,
-        "source": null,
-        "image_url": null,
-        "verification": "공개 자료의 작품 제원 미확인",
-        "image_usage": "전시 기획자 사용권 확보 확인"
+        "title": "無爲自然 2105",
+        "year": "2021",
+        "medium": "캔버스에 아크릴릭",
+        "dimensions": "90.9 × 72.7 cm",
+        "source": "https://www.imaeil.com/page/view/2021082814091405603",
+        "institution": "대백프라자갤러리 대구원로화가회전 / 매일신문",
+        "verification": "전시 기사 작품 캡션",
+        "image_usage": "전시 기획자 확인"
       },
-      "work_review": "",
+      "work_review": "짙은 파랑과 연한 청색이 화면을 가로지르며 검은 필획과 충돌한다. 빠르게 휘두른 듯한 붓질은 자연의 외형을 묘사하지 않으면서도 바람과 물의 움직임을 환기한다. 겹친 색층과 드문 분홍빛이 전체 화면에 즉흥성과 균형을 부여한다.",
       "work_status": "대표작 제원 확인 중",
       "biography": "대구 현대미술의 전후 추상회화 흐름 속에서 조형적 탐색을 이어간 작가다. 재현을 줄이고 선·면·색 사이의 독립적 관계에 집중했다.",
       "critique": "추상 화면은 해독해야 할 그림보다 체험해야 할 질서에 가깝다. 선의 방향과 색면의 밀도가 만들어 내는 긴장은 당시 미술이 새로운 시대의 감각을 찾는 방식이다. 조형적 리듬을 중심에 둔 시선이 돋보인다.",
@@ -621,7 +621,10 @@
         "image_saved": false,
         "image_note": null
       },
-      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준"
+      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
+      "image_source_url": "https://www.imaeil.com/photos/2021/08/28/2021082814082641930_l.jpg",
+      "image_attribution_url": "https://www.imaeil.com/page/view/2021082814091405603",
+      "image_status": "신문 전시 캡션 작품 이미지 소스 확인"
     },
     {
       "order": 20,
