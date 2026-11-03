@@ -13,15 +13,11 @@
   },
   {
     "artist": "손일봉",
-    "status": "downloaded",
-    "file": "assets/artworks/artist-08.webp",
-    "bytes": 11946
+    "status": "cached"
   },
   {
     "artist": "장석수",
-    "status": "downloaded",
-    "file": "assets/artworks/artist-09.webp",
-    "bytes": 37216
+    "status": "cached"
   },
   {
     "artist": "정점식",
@@ -38,6 +34,12 @@
   {
     "artist": "이영륭",
     "status": "cached"
+  },
+  {
+    "artist": "김호득",
+    "status": "downloaded",
+    "file": "assets/artworks/artist-20.webp",
+    "bytes": 36512
   },
   {
     "artist": "이강소",
@@ -63,5 +65,17 @@
   {
     "artist": "장이규",
     "status": "cached"
+  },
+  {
+    "artist": "김일해",
+    "status": "downloaded",
+    "file": "assets/artworks/artist-35.webp",
+    "bytes": 276156
+  },
+  {
+    "artist": "김일환",
+    "status": "downloaded",
+    "file": "assets/artworks/artist-36.webp",
+    "bytes": 98176
   }
 ]

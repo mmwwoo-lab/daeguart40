@@ -671,7 +671,8 @@
       "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
       "image_source_url": "https://d7hftxdivxxvm.cloudfront.net/?height=546&quality=85&resize_to=fit&src=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2FVL74gBAlql4Cz_6HrszrRg%2Flarge.jpg&width=640",
       "image_attribution_url": "https://www.artsy.net/artwork/kim-ho-deuk-waterfall-31",
-      "image_status": "Artsy 공개 작품 사진 URL 확인 · 다운로드 예정"
+      "image_status": "GitHub 저장 파일 등록 완료",
+      "image": "assets/artworks/artist-20.webp"
     },
     {
       "order": 21,
@@ -1157,7 +1158,8 @@
       "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
       "image_source_url": "https://img.khan.co.kr/news/2022/10/14/news-p.v1.20221014.b174e6b1556a4f64a970c16f2a0782bf.jpg",
       "image_attribution_url": "https://www.khan.co.kr/article/202210141423001",
-      "image_status": "경향신문 작품 캡션 이미지 확인 · 다운로드 예정"
+      "image_status": "GitHub 저장 파일 등록 완료",
+      "image": "assets/artworks/artist-35.webp"
     },
     {
       "order": 36,
@@ -1192,7 +1194,8 @@
       "image_source_url": "https://www.yeongnam.com/mnt/file/202408/2024080201000071300002422.jpg",
       "image_attribution_url": "https://www.yeongnam.com/web/view.php?key=20240802010000242",
       "image_note": "김일환 작가가 〈신목〉 앞에 선 2024년 봉산문화회관 전시 현장 사진이며 작품 단독 사진이 아닙니다.",
-      "image_status": "작품을 배경으로 한 전시 현장 사진 확인"
+      "image_status": "GitHub 저장 파일 등록 완료",
+      "image": "assets/artworks/artist-36.webp"
     },
     {
       "order": 37,
