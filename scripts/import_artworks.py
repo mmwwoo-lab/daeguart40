@@ -46,7 +46,7 @@ report=[]
 for item in data["artists"]:
     if not item.get("image_source_url") and item.get("image_article_source") and item.get("image_expected_caption"):
         exact=find_exact_captions(item["image_article_source"],item["name"],item["image_expected_caption"])
-        print("CAPTION MATCH",item["name"],len(exact),[(a[:85],u[:100]) for a,u in exact[:4]])
+        print("ARTICLE IMAGE MATCH",item["name"],len(exact),[(a[:85],u[:100]) for a,u in exact[:4]])
         if len(exact)==1:
             item["image_source_url"]=exact[0][1]
             item["image_attribution_url"]=item["image_article_source"]
