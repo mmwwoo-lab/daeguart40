@@ -388,16 +388,16 @@
       "room_title": "대구 근대미술의 개척자",
       "status": "선정 후보 — 작품 실물·권리·정확한 소속 검증 전",
       "work": {
-        "title": null,
-        "medium": null,
-        "dimensions": null,
-        "year": null,
-        "source": null,
-        "image_url": null,
-        "verification": "공개 자료의 작품 제원 미확인",
-        "image_usage": "전시 기획자 사용권 확보 확인"
+        "title": "자화상",
+        "year": "1939",
+        "medium": "캔버스에 유채",
+        "dimensions": "31.5 × 23 cm",
+        "source": "https://www.koreana.or.kr/koreana/na/ntt/selectNttInfo.do?bbsId=1125&nttSn=102080",
+        "institution": "코리아나 미술평론 · 개인 소장 작품 기록",
+        "verification": "공개 전문 전시·평론에 작품 제원 명시",
+        "image_usage": "전시기획자 사용권 확보 확인"
       },
-      "work_review": "",
+      "work_review": "자신의 얼굴을 관찰하는 시선은 단순한 외모의 기록을 넘어 내면을 응시하는 태도로 이어진다. 1939년의 자화상은 서양화의 인체 표현이 근대 한국의 자기 인식과 만나는 장면이다. 작가가 생의 마지막 무렵 남긴 회화라는 점에서도 깊은 여운을 남긴다.",
       "work_status": "대표작 제원 확인 중",
       "biography": "대구 근대미술의 조형 실험을 논할 때 등장하는 작가다. 익숙한 사물을 근대적 구성과 색채의 방식으로 바꾸려 했던 시대의 흐름 속에 놓인다.",
       "critique": "회화적 실험은 대상을 얼마만큼 닮게 그렸느냐보다 화면을 어떤 질서로 조직했느냐에 달려 있다. 형태의 변형과 색의 대비를 통해 당대의 새 미술 언어가 어떤 질문을 던졌는지 살핀다.",
@@ -408,7 +408,10 @@
         "image_saved": false,
         "image_note": null
       },
-      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준"
+      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
+      "image_article_source": "https://www.koreana.or.kr/koreana/na/ntt/selectNttInfo.do?bbsId=1125&nttSn=102080",
+      "image_expected_caption": "자화상",
+      "image_status": "작품 제원 확인 · 일치 이미지 탐색"
     },
     {
       "order": 13,
@@ -955,16 +958,16 @@
       "room_title": "대구 현대·실험미술의 선구자",
       "status": "선정 후보 — 작품 실물·권리·정확한 소속 검증 전",
       "work": {
-        "title": null,
-        "medium": null,
-        "dimensions": null,
-        "year": null,
-        "source": null,
-        "image_url": null,
-        "verification": "공개 자료의 작품 제원 미확인",
-        "image_usage": "전시 기획자 사용권 확보 확인"
+        "title": "색자체",
+        "year": "1976",
+        "medium": "캔버스에 아크릴",
+        "dimensions": "162 × 130 cm",
+        "source": "https://www.imaeil.com/page/view/2025022812232740965",
+        "institution": "대구문화예술회관 소장품 · 한국추상미술 하이라이트전",
+        "verification": "공개 전문 전시·평론에 작품 제원 명시",
+        "image_usage": "전시기획자 사용권 확보 확인"
       },
-      "work_review": "",
+      "work_review": "물감의 흐름과 축적은 이미지를 묘사하는 대신 색 자체의 물질적 성질을 드러낸다. 캔버스 위에서 색채가 스스로 만드는 흔적은 작가의 의도와 우연 사이의 긴장을 만든다. 대구 실험미술이 탐구한 비재현적 회화의 가능성을 보여준다.",
       "work_status": "대표작 제원 확인 중",
       "biography": "대구의 현대 추상화 흐름 속에서 색채와 화면의 구조를 주요 관심사로 다룬 작가다. 형태의 재현을 줄이고 조형 요소 자체의 관계에 집중했다.",
       "critique": "색채는 대상에 붙는 장식이 아니라 화면을 조직하는 주체가 된다. 색면의 인접과 대비는 깊이와 움직임을 만들어 낸다. 추상회화의 자율성을 통해 관람자의 감각과 시선을 새롭게 구성한다.",
@@ -975,7 +978,10 @@
         "image_saved": false,
         "image_note": null
       },
-      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준"
+      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
+      "image_article_source": "https://www.imaeil.com/page/view/2025022812232740965",
+      "image_expected_caption": "색자체",
+      "image_status": "작품 제원 확인 · 일치 이미지 탐색"
     },
     {
       "order": 30,
