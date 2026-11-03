@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Download exhibition-owner-authorized artwork previews for Daegu Art 40.
+"""Download curator-authorized artwork previews for Daegu Art 40.
 Runs within GitHub Actions with internet access. Saves exact image URLs only.
 Never substitutes a different artist or mismatched work. Failures are logged.
 """
