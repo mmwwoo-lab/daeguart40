@@ -283,7 +283,8 @@
       "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
       "image_source_url": "https://www.yeongnam.com/mnt/file/200603/20060317.010320759030001i1.jpg",
       "image_attribution_url": "https://www.yeongnam.com/web/view.php?key=20060317.010320759030001",
-      "image_status": "작품 사진과 작품명 캡션 일치"
+      "image_status": "GitHub 저장 파일 등록 완료",
+      "image": "assets/artworks/artist-08.webp"
     },
     {
       "order": 9,
@@ -316,7 +317,8 @@
       "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
       "image_source_url": "https://www.imaeil.com/photos/2022/08/11/2022081116121119680_m.jpg",
       "image_attribution_url": "https://www.imaeil.com/page/view/2022081514112042675",
-      "image_status": "1965년 작품 전시 이미지 일치 확인"
+      "image_status": "GitHub 저장 파일 등록 완료",
+      "image": "assets/artworks/artist-09.webp"
     },
     {
       "order": 10,
