@@ -3,7 +3,7 @@
 Runs within GitHub Actions with internet access. Saves exact image URLs only.
 Never substitutes a different artist or mismatched work. Failures are logged.
 """
-import json, io, time, urllib.request
+import json, io, time, urllib.request, re
 from pathlib import Path
 from PIL import Image, ImageOps
 ROOT=Path(__file__).resolve().parents[1]
@@ -50,6 +50,9 @@ for x in data["artists"]:
     museum["artists"].append({"id":str(x["order"]).zfill(2),"name":x["name"],"theme":x["theme"],"room":int(x["room"]),"roomTitle":x["room_title"],"image":x.get("image",""),"biography":x.get("biography",""),"critique":x.get("critique",""),"work":x.get("work",{}),"workReview":x.get("work_review",""),"image_source":x.get("image_source_url",""),"image_credit":x.get("image_attribution_url",""),"image_note":x.get("image_note","")})
 payload=json.dumps(museum,ensure_ascii=False,separators=(",",":")).replace("<","\\u003c")
 html=html[:start]+"const data="+payload+html[stop:]
+work_total=sum(bool(x.get("work",{}).get("title")) for x in data["artists"])
+image_total=sum(bool(x.get("image","")) for x in data["artists"])
+html=re.sub(r"작가 소개·평론 40인, 작품 제원 \\d+건, 작품 이미지 \\d+점",f"작가 소개·평론 40인, 작품 제원 {work_total}건, 작품 이미지 {image_total}점",html)
 INDEX.write_text(html,encoding="utf-8")
 (ROOT/"data/image_report.json").write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 print("WORKS SAVED:",sum(r["status"] in ("downloaded","cached") for r in report))
