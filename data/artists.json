@@ -412,11 +412,11 @@
       "work": {
         "title": "모자(母子)",
         "year": "1957",
-        "medium": "나무판에 채색",
-        "dimensions": "79 × 53 cm",
-        "source": "https://v.daum.net/v/20260210155506389",
-        "institution": "대구미술관 2026 신소장품 보고전",
-        "verification": "대구미술관 소장품/전시 기록 작품 캡션",
+        "medium": "캔버스에 유채",
+        "dimensions": "76.5 × 51 cm",
+        "source": "https://www.yeongnam.com/web/view.php?key=20250613029453872",
+        "institution": "영남일보 작품 캡션·개인 소장품",
+        "verification": "실제 전시 이미지 캡션에 일치하는 작품 제원 확인",
         "image_usage": "전시 기획자 권리 확인"
       },
       "work_review": "어머니와 아이의 인체는 굽이치는 곡선과 붉은 색면의 관계로 단순화된다. 화면을 가르는 형태의 교차는 모성의 친밀감을 유지하면서도 사물의 재현을 넘어 추상적 구조를 세운다. 구상과 비구상이 동시에 살아 있는 한국 초기 추상의 중요한 예다.",
@@ -432,9 +432,10 @@
       },
       "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
       "image_source_url": "https://www.imaeil.com/photos/2022/08/11/2022081116121214797_m.jpg",
-      "image_attribution_url": "https://v.daum.net/v/20260210155506389",
+      "image_attribution_url": "https://www.yeongnam.com/web/view.php?key=20250613029453872",
       "image_status": "GitHub 저장 파일 등록 완료",
-      "image": "assets/artworks/artist-13.webp"
+      "image": "assets/artworks/artist-13.webp",
+      "image_note": "동명 작품 중 이미지에 부합하는 개인 소장 76.5×51cm 유채 판본. 대구미술관 소장 79×53cm 나무판 채색 판본과 구별."
     },
     {
       "order": 14,
@@ -531,7 +532,10 @@
         "image_saved": false,
         "image_note": null
       },
-      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준"
+      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
+      "image_source_url": "https://www.imaeil.com/photos/2026/03/27/2026032715410572303_l.jpg",
+      "image_attribution_url": "https://www.imaeil.com/page/view/2026032716022853158",
+      "image_status": "매일신문 인당뮤지엄 전시 작품 사진 수집 예정"
     },
     {
       "order": 17,
@@ -730,16 +734,16 @@
       "room_title": "대구 현대·실험미술의 선구자",
       "status": "선정 후보 — 작품 실물·권리·정확한 소속 검증 전",
       "work": {
-        "title": "무제",
-        "year": "2014",
-        "medium": "신문·볼펜·연필",
-        "dimensions": "54 × 39 × 1 cm",
-        "source": "https://www.khan.co.kr/article/201503022119255",
-        "institution": "경향신문 전시 보도",
-        "image_usage": "전시 기획자 사용권 확보 확인",
-        "verification": "공개 전시 보도 작품 캡션"
+        "title": "Untitled 0151116",
+        "year": "2015",
+        "medium": "신문지에 볼펜과 연필",
+        "dimensions": "규격 미확인",
+        "source": "https://www.koreadaily.com/article/20260217184004395",
+        "institution": "미주중앙일보 · 페로탱 전시 보도",
+        "verification": "신문 전시 보도 작품 제목 일치",
+        "image_usage": "기획자 전시 사용권 확인"
       },
-      "work_review": "신문지의 글자를 볼펜과 연필로 반복해 덮는 과정은 읽을 수 있던 정보를 검은 물질로 바꾼다. 긋기와 지우기는 서로 반대되는 행위 같지만 화면에서는 하나의 축적된 시간이 된다. 노동과 침묵, 물성의 변화를 통해 회화의 경계를 묻는 작업이다.",
+      "work_review": "신문의 시장 지표와 기사가 남아 있는 상단 아래로 빽빽한 검은 마찰의 흔적이 내려앉는다. 반복된 그리기와 지우기는 정보를 숨기면서도 그 시대의 흔적을 지우지 못한다. 종이 표면에 쌓인 물질과 시간의 밀도가 작품의 형식이 된다.",
       "work_status": "작품 제원 자료 등록 완료",
       "biography": "대구 출신으로 신문지와 볼펜, 연필 등을 사용해 표면을 집요하게 지우고 덮는 작업을 펼친 작가다. 한국 실험미술의 독자적인 물성 연구로 알려져 있다.",
       "critique": "읽을 수 있던 활자는 반복된 행위를 통해 검은 물질적 표면으로 변한다. 정보의 소멸은 새로운 회화적 존재의 출현이 된다. 손의 노동과 시간의 누적이 만들어 낸 화면에서 표현과 삭제는 서로 구분되지 않는다.",
@@ -750,7 +754,10 @@
         "image_saved": false,
         "image_note": null
       },
-      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준"
+      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
+      "image_source_url": "https://www.koreadaily.com/data/photo/2026/02/18/606695f9-30cb-433e-9322-8b44b7dcf788.jpg",
+      "image_attribution_url": "https://www.koreadaily.com/article/20260217184004395",
+      "image_status": "전시 기사를 통해 작품 및 이미지 일치 확인"
     },
     {
       "order": 24,
