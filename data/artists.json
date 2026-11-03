@@ -106,16 +106,16 @@
       "room_title": "대구 근대미술의 개척자",
       "status": "선정 후보 — 작품 실물·권리·정확한 소속 검증 전",
       "work": {
-        "title": null,
-        "medium": null,
-        "dimensions": null,
-        "year": null,
-        "source": null,
-        "image_url": null,
-        "verification": "공개 자료의 작품 제원 미확인",
-        "image_usage": "전시 기획자 사용권 확보 확인"
+        "title": "공장풍경",
+        "year": "1927",
+        "medium": "종이에 수채",
+        "dimensions": "28.5 × 37.8 cm",
+        "source": "https://v.daum.net/v/20260210155506389",
+        "institution": "대구미술관 2026 신소장품 보고전",
+        "verification": "대구미술관 소장품/전시 기록 작품 캡션",
+        "image_usage": "전시 기획자 권리 확인"
       },
-      "work_review": "",
+      "work_review": "우뚝 선 굴뚝과 건물들을 화면 중심에 배치하여 근대화기의 대구를 기록한다. 연한 하늘빛과 붉은 지붕, 흙빛 도로의 대비는 산업 시설의 낯선 존재감을 부드러운 수채의 감각으로 바꾼다. 특정 시대와 장소를 시각적 기억으로 남긴 풍경이다.",
       "work_status": "대표작 제원 확인 중",
       "biography": "대구 근대미술의 초창기에 수채화 교육과 작품 활동을 펼친 인물이다. 대구의 거리와 건축, 생활 공간을 관찰하며 지역에서 서양화가 뿌리내리는 데 기여했다.",
       "critique": "수채 특유의 투명한 색층과 간결한 구도는 도시의 순간을 기록하는 감각적인 언어다. 서양화의 새로운 시선을 지역 풍경에 적용했다는 점에서 미술사적 의미가 크다. 그의 화면은 대구 근대의 시각적 기억을 환기한다.",
@@ -126,7 +126,10 @@
         "image_saved": false,
         "image_note": null
       },
-      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준"
+      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
+      "image_source_url": "https://img2.daumcdn.net/thumb/R658x0.q70/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202602%2F10%2F551754-epk0OhG%2F20260210155507261pvbl.jpg",
+      "image_attribution_url": "https://v.daum.net/v/20260210155506389",
+      "image_status": "공개된 전시 작품 이미지 소스 확인 · 업로드 진행"
     },
     {
       "order": 4,
@@ -136,16 +139,16 @@
       "room_title": "대구 근대미술의 개척자",
       "status": "선정 후보 — 작품 실물·권리·정확한 소속 검증 전",
       "work": {
-        "title": null,
-        "medium": null,
-        "dimensions": null,
-        "year": null,
-        "source": null,
-        "image_url": null,
-        "verification": "공개 자료의 작품 제원 미확인",
-        "image_usage": "전시 기획자 사용권 확보 확인"
+        "title": "주택가 풍경",
+        "year": "1930년대 추정",
+        "medium": "종이에 유채",
+        "dimensions": "25 × 32.5 cm",
+        "source": "https://v.daum.net/v/20260210155506389",
+        "institution": "대구미술관 2026 신소장품 보고전",
+        "verification": "대구미술관 소장품/전시 기록 작품 캡션",
+        "image_usage": "전시 기획자 권리 확인"
       },
-      "work_review": "",
+      "work_review": "구불거리는 골목과 가옥의 구도는 일상의 장소를 새롭게 바라보는 근대 화가의 시선을 반영한다. 건물과 땅의 경계가 만드는 리듬을 통해 주택가는 단순한 배경에서 독립적인 회화의 주제로 바뀐다. 생활 공간의 조형적 가능성을 일깨우는 작품이다.",
       "work_status": "대표작 제원 확인 중",
       "biography": "대구의 근대 서양화 형성기에 활동한 작가로, 새로운 회화 교육과 전람회 문화가 지역에 퍼지는 과정과 연결된다. 당시 서양화의 수용과 개별 작가의 실험을 살피게 한다.",
       "critique": "근대 초기 회화를 볼 때는 기교만이 아니라 새로운 시각 체계가 어떻게 정착했는가를 함께 읽어야 한다. 인물과 풍경을 바라보는 구도, 명암과 색채의 선택은 시대의 변화가 남긴 조형적 흔적이다.",
@@ -406,16 +409,16 @@
       "room_title": "대구 현대미술의 성장과 확장",
       "status": "선정 후보 — 작품 실물·권리·정확한 소속 검증 전",
       "work": {
-        "title": null,
-        "medium": null,
-        "dimensions": null,
-        "year": null,
-        "source": null,
-        "image_url": null,
-        "verification": "공개 자료의 작품 제원 미확인",
-        "image_usage": "전시 기획자 사용권 확보 확인"
+        "title": "모자(母子)",
+        "year": "1957",
+        "medium": "나무판에 채색",
+        "dimensions": "79 × 53 cm",
+        "source": "https://v.daum.net/v/20260210155506389",
+        "institution": "대구미술관 2026 신소장품 보고전",
+        "verification": "대구미술관 소장품/전시 기록 작품 캡션",
+        "image_usage": "전시 기획자 권리 확인"
       },
-      "work_review": "",
+      "work_review": "어머니와 아이의 인체는 굽이치는 곡선과 붉은 색면의 관계로 단순화된다. 화면을 가르는 형태의 교차는 모성의 친밀감을 유지하면서도 사물의 재현을 넘어 추상적 구조를 세운다. 구상과 비구상이 동시에 살아 있는 한국 초기 추상의 중요한 예다.",
       "work_status": "대표작 제원 확인 중",
       "biography": "대구의 추상미술과 미술교육 발전에 깊이 관여한 작가다. 회화를 사유와 조형 질서의 공간으로 인식하며 지역 현대미술의 세대 간 연결 고리가 되었다.",
       "critique": "형태가 사물의 외양에서 벗어날수록 색면과 선의 관계가 더 선명해진다. 화면은 자연의 모방이 아니라 질서와 긴장의 구축이다. 정점식의 추상은 대구 현대회화가 획득한 독립적인 조형 언어를 보여 준다.",
@@ -426,7 +429,10 @@
         "image_saved": false,
         "image_note": null
       },
-      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준"
+      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
+      "image_source_url": "https://www.imaeil.com/photos/2022/08/11/2022081116121214797_m.jpg",
+      "image_attribution_url": "https://v.daum.net/v/20260210155506389",
+      "image_status": "공개된 전시 작품 이미지 소스 확인 · 업로드 진행"
     },
     {
       "order": 14,
@@ -563,16 +569,16 @@
       "room_title": "대구 현대미술의 성장과 확장",
       "status": "선정 후보 — 작품 실물·권리·정확한 소속 검증 전",
       "work": {
-        "title": null,
-        "medium": null,
-        "dimensions": null,
-        "year": null,
-        "source": null,
-        "image_url": null,
-        "verification": "공개 자료의 작품 제원 미확인",
-        "image_usage": "전시 기획자 사용권 확보 확인"
+        "title": "후수",
+        "year": "1997",
+        "medium": "캔버스에 유채",
+        "dimensions": "130 × 162 cm",
+        "source": "https://cho-a47.tistory.com/1921",
+        "institution": "대구미술관 소장품 100선 전시 기록",
+        "verification": "대구미술관 소장품/전시 기록 작품 캡션",
+        "image_usage": "전시 기획자 권리 확인"
       },
-      "work_review": "",
+      "work_review": "인물과 공간의 관계를 중심에 놓은 회화적 관심이 드러나는 작업이다. 관찰의 깊이를 통해 대상을 시각적 경험으로 되돌리고, 구상적 표현이 담을 수 있는 개인의 시간과 감정을 생각하게 한다. 실제 작품의 색채와 구도를 직접 살피는 태도가 중요하다.",
       "work_status": "대표작 제원 확인 중",
       "biography": "대구 미술계의 근현대 흐름에서 인물과 일상생활을 주요 소재로 다룬 작가다. 현실을 바라보는 눈과 회화의 구성 사이에서 자신의 표현을 찾았다.",
       "critique": "일상은 평범하기 때문에 오히려 시대를 오래 기억하게 한다. 화면의 인물과 사물은 극적인 사건 없이도 삶의 무게를 전한다. 현실을 회화의 언어로 절제해 담는 태도 자체가 비평적 의미를 갖는다.",
