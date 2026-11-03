@@ -5,9 +5,7 @@
   },
   {
     "artist": "이쾌대",
-    "status": "downloaded",
-    "file": "assets/artworks/artist-02.webp",
-    "bytes": 75814
+    "status": "cached"
   },
   {
     "artist": "곽인식",
@@ -15,9 +13,13 @@
   },
   {
     "artist": "이강소",
+    "status": "cached"
+  },
+  {
+    "artist": "이명미",
     "status": "downloaded",
-    "file": "assets/artworks/artist-22.webp",
-    "bytes": 81508
+    "file": "assets/artworks/artist-24.webp",
+    "bytes": 244530
   },
   {
     "artist": "박현기",
