@@ -129,7 +129,8 @@
       "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
       "image_source_url": "https://img2.daumcdn.net/thumb/R658x0.q70/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fnews%2F202602%2F10%2F551754-epk0OhG%2F20260210155507261pvbl.jpg",
       "image_attribution_url": "https://v.daum.net/v/20260210155506389",
-      "image_status": "공개된 전시 작품 이미지 소스 확인 · 업로드 진행"
+      "image_status": "GitHub 저장 파일 등록 완료",
+      "image": "assets/artworks/artist-03.webp"
     },
     {
       "order": 4,
@@ -432,7 +433,8 @@
       "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
       "image_source_url": "https://www.imaeil.com/photos/2022/08/11/2022081116121214797_m.jpg",
       "image_attribution_url": "https://v.daum.net/v/20260210155506389",
-      "image_status": "공개된 전시 작품 이미지 소스 확인 · 업로드 진행"
+      "image_status": "GitHub 저장 파일 등록 완료",
+      "image": "assets/artworks/artist-13.webp"
     },
     {
       "order": 14,
@@ -1062,7 +1064,8 @@
       "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
       "image_source_url": "https://www.artko.kr/files/cafe/namoosai/2017/0905/1113/201709051113490001.jpg",
       "image_attribution_url": "https://www.artko.kr/~namoosai/board?article_id=26493&menu_id=3047&p=4&pm=view",
-      "image_status": "공식 작가 작품 이미지 URL 확인 · GitHub 저장 진행"
+      "image_status": "GitHub 저장 파일 등록 완료",
+      "image": "assets/artworks/artist-33.webp"
     },
     {
       "order": 34,
