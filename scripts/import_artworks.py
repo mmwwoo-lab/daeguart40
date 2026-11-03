@@ -30,6 +30,7 @@ for item in data["artists"]:
         with Image.open(io.BytesIO(raw)) as im:
             im=ImageOps.exif_transpose(im).convert("RGB")
             if im.width<220 or im.height<170:raise ValueError("Image too small")
+            # Preserve artwork aspect ratio when preparing the web preview.
             im.thumbnail((1500,1500),Image.Resampling.LANCZOS)
             im.save(path,"WEBP",quality=86,method=6)
         item["image"]="assets/artworks/"+path.name
