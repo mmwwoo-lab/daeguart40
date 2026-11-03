@@ -1,0 +1,20 @@
+[
+  {
+    "artist": "이인성",
+    "status": "downloaded",
+    "file": "assets/artworks/artist-01.webp",
+    "bytes": 111284
+  },
+  {
+    "artist": "곽인식",
+    "status": "downloaded",
+    "file": "assets/artworks/artist-15.webp",
+    "bytes": 46460
+  },
+  {
+    "artist": "박현기",
+    "status": "downloaded",
+    "file": "assets/artworks/artist-25.webp",
+    "bytes": 111160
+  }
+]

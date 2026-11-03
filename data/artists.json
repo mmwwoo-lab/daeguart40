@@ -54,7 +54,8 @@
       "image_source_url": "https://www.yeongnam.com/mnt/file/201210/20121018.010220727010001i1.jpg",
       "image_attribution_url": "https://www.yeongnam.com/web/view.php?key=20121018.010220727010001",
       "image_verified_work": "〈가을 어느 날〉(1934)",
-      "image_status": "공개 이미지 URL 확인 — GitHub 다운로드 검증 전"
+      "image_status": "GitHub 저장 파일 등록 완료",
+      "image": "assets/artworks/artist-01.webp"
     },
     {
       "order": 2,
@@ -382,7 +383,8 @@
       "image_source_url": "https://www.mmca.go.kr/upload/exhibition/2025/04/dse_202504100206272001349.png",
       "image_attribution_url": "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=2&exhId=202501060001886",
       "image_verified_work": "〈작품〉(1962)",
-      "image_status": "공개 이미지 URL 확인 — GitHub 다운로드 검증 전"
+      "image_status": "GitHub 저장 파일 등록 완료",
+      "image": "assets/artworks/artist-15.webp"
     },
     {
       "order": 16,
@@ -620,7 +622,8 @@
       "image_source_url": "https://www.harpersbazaar.co.kr/resources_old/online/org_online_image/46a5ce93-e670-4980-b9ca-4786db12ae6d.jpg",
       "image_attribution_url": "https://www.harpersbazaar.co.kr/article/49836",
       "image_verified_work": "〈무제〉(1979)",
-      "image_status": "공개 이미지 URL 확인 — GitHub 다운로드 검증 전"
+      "image_status": "GitHub 저장 파일 등록 완료",
+      "image": "assets/artworks/artist-25.webp"
     },
     {
       "order": 26,
