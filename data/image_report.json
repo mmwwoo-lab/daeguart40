@@ -37,9 +37,7 @@
   },
   {
     "artist": "김호득",
-    "status": "downloaded",
-    "file": "assets/artworks/artist-20.webp",
-    "bytes": 36512
+    "status": "cached"
   },
   {
     "artist": "이강소",
@@ -59,6 +57,24 @@
     "status": "cached"
   },
   {
+    "artist": "곽훈",
+    "status": "downloaded",
+    "file": "assets/artworks/artist-26.webp",
+    "bytes": 81840
+  },
+  {
+    "artist": "황현욱",
+    "status": "downloaded",
+    "file": "assets/artworks/artist-27.webp",
+    "bytes": 70644
+  },
+  {
+    "artist": "조홍근",
+    "status": "downloaded",
+    "file": "assets/artworks/artist-32.webp",
+    "bytes": 70516
+  },
+  {
     "artist": "이영철",
     "status": "cached"
   },
@@ -68,14 +84,16 @@
   },
   {
     "artist": "김일해",
-    "status": "downloaded",
-    "file": "assets/artworks/artist-35.webp",
-    "bytes": 276156
+    "status": "cached"
   },
   {
     "artist": "김일환",
+    "status": "cached"
+  },
+  {
+    "artist": "남충모",
     "status": "downloaded",
-    "file": "assets/artworks/artist-36.webp",
-    "bytes": 98176
+    "file": "assets/artworks/artist-39.webp",
+    "bytes": 49174
   }
 ]
