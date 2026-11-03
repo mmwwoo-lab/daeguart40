@@ -648,18 +648,16 @@
       "room_title": "대구 현대미술의 성장과 확장",
       "status": "선정 후보 — 작품 실물·권리·정확한 소속 검증 전",
       "work": {
-        "title": "폭포",
-        "year": "1988",
-        "medium": "한지에 수묵",
-        "dimensions": "141 × 72 cm",
-        "source": "https://sema.seoul.go.kr/kr/knowledge_research/collection/collection_detail?artSeq=WORK_0000000755",
-        "institution": "서울시립미술관 소장품",
-        "review": "화면을 가르는 굵은 먹의 흐름은 물의 속도와 바위의 저항을 동시에 느끼게 한다. 절제된 형상과 강한 농담 대비는 폭포의 외관을 설명하기보다 그 힘을 직접 체험하게 만든다. 번지는 먹과 남겨진 여백 사이에서 전통 산수의 필묵은 현대적 공간 감각으로 확장된다.",
-        "image_url": "",
-        "image_usage": "전시 기획자 사용권 확보 확인",
-        "verification": "공식 공개 소장품·교육 자료에서 작품 정보 확인"
+        "title": "Waterfall",
+        "year": "2025",
+        "medium": "무표백 면에 수묵",
+        "dimensions": "86 × 104 cm",
+        "source": "https://www.artsy.net/artwork/kim-ho-deuk-waterfall-31",
+        "institution": "Artsy · Artside Gallery",
+        "verification": "화랑 작품 판매 정보와 실제 작품 이미지 대응",
+        "image_usage": "전시 기획자 사용권 확보 확인"
       },
-      "work_review": "화면을 가르는 굵은 먹의 흐름은 물의 속도와 바위의 저항을 동시에 느끼게 한다. 절제된 형상과 강한 농담 대비는 폭포의 외관을 설명하기보다 그 힘을 직접 체험하게 만든다. 번지는 먹과 남겨진 여백 사이에서 전통 산수의 필묵은 현대적 공간 감각으로 확장된다.",
+      "work_review": "먹의 굵은 수직 필획을 상단의 긴 수평획이 받치며 물의 흐름을 추상적 구조로 전환한다. 한지 대신 거친 면 바탕이 먹의 번짐과 흔적을 받아내고, 튄 먹방울은 폭포가 가진 힘과 속도를 직접 감각하게 한다. 간결한 흑백 속에 운동성과 공간감이 집약된다.",
       "work_status": "작품 제원 자료 등록 완료",
       "biography": "1950년 출생의 한국화가로, 수묵의 운동성과 현대적 공간 감각을 탐구해 왔다. 전통 산수의 소재를 새로운 필획과 화면 구성으로 재해석했다.",
       "critique": "굵게 내리그은 먹의 흔적은 폭포의 외형보다 속도와 힘을 전달한다. 번짐과 여백은 물과 바위가 충돌하는 순간의 긴장으로 읽힌다. 수묵의 정신을 유지하면서 감각적 에너지로 현대화한 작업이다.",
@@ -670,7 +668,10 @@
         "image_saved": false,
         "image_note": null
       },
-      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준"
+      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
+      "image_source_url": "https://d7hftxdivxxvm.cloudfront.net/?height=546&quality=85&resize_to=fit&src=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2FVL74gBAlql4Cz_6HrszrRg%2Flarge.jpg&width=640",
+      "image_attribution_url": "https://www.artsy.net/artwork/kim-ho-deuk-waterfall-31",
+      "image_status": "Artsy 공개 작품 사진 URL 확인 · 다운로드 예정"
     },
     {
       "order": 21,
@@ -1133,16 +1134,16 @@
       "source_url": "https://www.hanaartgallery.com/board/bbs/board.php?bo_table=engraving&page=30&wr_id=165",
       "status": "신규 선정 — 대표작·권리·약력 개별 검수 전",
       "work": {
-        "title": null,
-        "medium": null,
-        "dimensions": null,
-        "year": null,
-        "source": null,
-        "image_url": null,
-        "verification": "공개 자료의 작품 제원 미확인",
+        "title": "For you-아이리스",
+        "year": "2022년 전시",
+        "medium": "회화 · 세부 재료 미확인",
+        "dimensions": "규격 미확인",
+        "source": "https://www.khan.co.kr/article/202210141423001",
+        "institution": "갤러리 에아 · 경향신문 2022 개인전",
+        "verification": "작품명과 사진이 기사 캡션에서 함께 확인됨",
         "image_usage": "전시 기획자 사용권 확보 확인"
       },
-      "work_review": "",
+      "work_review": "흰색과 보라색 붓꽃이 초록의 숲을 가르며 선명한 생명력을 드러낸다. 붉은 꽃과 다채로운 명암은 배경의 깊이를 키우고, 꽃잎의 활달한 붓질은 빛을 받는 찰나를 붙잡는다. 색의 충돌을 조화로 바꾸는 회화적 감각이 두드러진다.",
       "work_status": "대표작 제원 확인 중",
       "biography": "대구 구상미술의 흐름 속에서 인물과 풍경의 색채 표현을 탐색한 화가다. 명확한 대상성과 감각적인 붓질의 균형을 유지한다.",
       "critique": "형상이 선명하게 남아 있으면서도 색과 빛의 처리에서 작가의 정서가 드러난다. 구상은 단순한 모방이 아니라 대상을 어떻게 선택하고 강조하는가의 문제다. 화면에 축적된 빛과 색이 감상의 리듬을 만든다.",
@@ -1153,7 +1154,10 @@
         "image_saved": false,
         "image_note": null
       },
-      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준"
+      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
+      "image_source_url": "https://img.khan.co.kr/news/2022/10/14/news-p.v1.20221014.b174e6b1556a4f64a970c16f2a0782bf.jpg",
+      "image_attribution_url": "https://www.khan.co.kr/article/202210141423001",
+      "image_status": "경향신문 작품 캡션 이미지 확인 · 다운로드 예정"
     },
     {
       "order": 36,
