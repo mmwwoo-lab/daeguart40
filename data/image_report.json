@@ -58,21 +58,21 @@
   },
   {
     "artist": "곽훈",
-    "status": "downloaded",
-    "file": "assets/artworks/artist-26.webp",
-    "bytes": 81840
+    "status": "cached"
   },
   {
     "artist": "황현욱",
+    "status": "cached"
+  },
+  {
+    "artist": "이향미",
     "status": "downloaded",
-    "file": "assets/artworks/artist-27.webp",
-    "bytes": 70644
+    "file": "assets/artworks/artist-29.webp",
+    "bytes": 92784
   },
   {
     "artist": "조홍근",
-    "status": "downloaded",
-    "file": "assets/artworks/artist-32.webp",
-    "bytes": 70516
+    "status": "cached"
   },
   {
     "artist": "이영철",
@@ -92,8 +92,6 @@
   },
   {
     "artist": "남충모",
-    "status": "downloaded",
-    "file": "assets/artworks/artist-39.webp",
-    "bytes": 49174
+    "status": "cached"
   }
 ]

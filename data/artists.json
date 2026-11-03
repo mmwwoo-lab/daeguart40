@@ -981,7 +981,10 @@
       "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
       "image_article_source": "https://www.imaeil.com/page/view/2025022812232740965",
       "image_expected_caption": "색자체",
-      "image_status": "작품 제원 확인 · 일치 이미지 탐색"
+      "image_status": "GitHub 저장 파일 등록 완료",
+      "image_source_url": "https://www.imaeil.com/photos/2025/02/28/2025022812013898792_l.jpg",
+      "image_attribution_url": "https://www.imaeil.com/page/view/2025022812232740965",
+      "image": "assets/artworks/artist-29.webp"
     },
     {
       "order": 30,
