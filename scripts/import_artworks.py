@@ -47,7 +47,7 @@ start=html.index("const data=")
 stop=html.index(";const artists=data.artists",start)
 museum={"rooms":[{"title":r["title"],"count":r["count"]} for r in data["rooms"]],"artists":[]}
 for x in data["artists"]:
-    museum["artists"].append({"id":str(x["order"]).zfill(2),"name":x["name"],"theme":x["theme"],"room":int(x["room"]),"roomTitle":x["room_title"],"image":x.get("image",""),"biography":x.get("biography",""),"critique":x.get("critique",""),"work":x.get("work",{}),"workReview":x.get("work_review",""),"image_source":x.get("image_source_url",""),"image_credit":x.get("image_attribution_url","")})
+    museum["artists"].append({"id":str(x["order"]).zfill(2),"name":x["name"],"theme":x["theme"],"room":int(x["room"]),"roomTitle":x["room_title"],"image":x.get("image",""),"biography":x.get("biography",""),"critique":x.get("critique",""),"work":x.get("work",{}),"workReview":x.get("work_review",""),"image_source":x.get("image_source_url",""),"image_credit":x.get("image_attribution_url",""),"image_note":x.get("image_note","")})
 payload=json.dumps(museum,ensure_ascii=False,separators=(",",":")).replace("<","\\u003c")
 html=html[:start]+"const data="+payload+html[stop:]
 INDEX.write_text(html,encoding="utf-8")
