@@ -1,20 +1,26 @@
 [
   {
     "artist": "이인성",
+    "status": "cached"
+  },
+  {
+    "artist": "이쾌대",
     "status": "downloaded",
-    "file": "assets/artworks/artist-01.webp",
-    "bytes": 111284
+    "file": "assets/artworks/artist-02.webp",
+    "bytes": 75814
   },
   {
     "artist": "곽인식",
+    "status": "cached"
+  },
+  {
+    "artist": "이강소",
     "status": "downloaded",
-    "file": "assets/artworks/artist-15.webp",
-    "bytes": 46460
+    "file": "assets/artworks/artist-22.webp",
+    "bytes": 81508
   },
   {
     "artist": "박현기",
-    "status": "downloaded",
-    "file": "assets/artworks/artist-25.webp",
-    "bytes": 111160
+    "status": "cached"
   }
 ]
