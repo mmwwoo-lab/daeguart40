@@ -65,10 +65,20 @@
     "status": "cached"
   },
   {
-    "artist": "이향미",
+    "artist": "김영진",
     "status": "downloaded",
-    "file": "assets/artworks/artist-29.webp",
-    "bytes": 92784
+    "file": "assets/artworks/artist-28.webp",
+    "bytes": 106898
+  },
+  {
+    "artist": "이향미",
+    "status": "cached"
+  },
+  {
+    "artist": "김기동",
+    "status": "downloaded",
+    "file": "assets/artworks/artist-30.webp",
+    "bytes": 62468
   },
   {
     "artist": "조홍근",
@@ -91,7 +101,19 @@
     "status": "cached"
   },
   {
+    "artist": "민병도",
+    "status": "downloaded",
+    "file": "assets/artworks/artist-37.webp",
+    "bytes": 142520
+  },
+  {
     "artist": "남충모",
     "status": "cached"
+  },
+  {
+    "artist": "노인식",
+    "status": "downloaded",
+    "file": "assets/artworks/artist-40.webp",
+    "bytes": 143510
   }
 ]
