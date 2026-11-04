@@ -298,6 +298,42 @@ dialog#detail[open]{
  #detail #additionalWorks .additional-work-link img{height:52px}
  #detail #artistHomepage,#detail #sourceLink{font-size:11px}
 }
+
+/* Smart type fitting: keep the 1:1 window free of a vertical scrollbar */
+dialog#detail[open]{overflow:hidden;scrollbar-width:none;--fit-copy:13px;--fit-line:1.48;--fit-heading:14px}
+dialog#detail[open]::-webkit-scrollbar{display:none}
+#detail .detail-right p{font-size:var(--fit-copy);line-height:var(--fit-line);letter-spacing:-.012em}
+#detail .detail-right h3{font-size:var(--fit-heading);line-height:1.3;margin:9px 0 4px;padding-bottom:4px}
+#detail .detail-top{margin-bottom:10px;padding-bottom:8px}
+#detail .detail-left #work{font-size:12px;line-height:1.4;padding:6px 8px}
+#detail .detail-left #workMeta{font-size:11px;line-height:1.4}
+#detail .detail-left #registrationStatus{font-size:10px;line-height:1.35}
+#detail .detail-left{gap:5px}
+#detail .detail-left #detailArt{height:clamp(145px,27dvh,270px);padding:5px}
+#detail[data-art-orientation="landscape"] .detail-left #detailArt{height:clamp(130px,24dvh,240px)}
+#detail[data-art-orientation="portrait"] .detail-left #detailArt{height:clamp(175px,34dvh,325px)}
+#detail .detail-layout{gap:clamp(10px,1.6vw,20px)}
+#detail #additionalWorks .additional-work-link img{height:48px}
+/* Phones: switch text panels instead of shrinking three essays to unreadable type */
+#detail .detail-text-tabs{display:none}
+@media(max-width:650px){
+ dialog#detail[open]{padding:8px;--fit-copy:11px;--fit-heading:12px}
+ #detail .detail-top{margin-bottom:5px;padding-bottom:4px}
+ #detail .detail-top h2{font-size:18px}
+ #detail .detail-layout{grid-template-columns:minmax(0,40%) minmax(0,60%);gap:8px}
+ #detail .detail-left #detailArt{height:clamp(95px,23vw,160px)}
+ #detail[data-art-orientation="landscape"] .detail-left #detailArt{height:clamp(90px,21vw,150px)}
+ #detail[data-art-orientation="portrait"] .detail-left #detailArt{height:clamp(125px,32vw,195px)}
+ #detail .detail-left #work{font-size:10px;padding:3px 4px}
+ #detail .detail-left #workMeta,#detail .detail-left #registrationStatus{font-size:9px;line-height:1.3}
+ #detail .detail-right h3{display:none}
+ #detail .detail-text-tabs{display:flex;gap:3px;margin-bottom:6px}
+ #detail .detail-text-tabs button{flex:1;min-width:0;padding:5px 2px;font-size:10px;border-radius:4px;background:#edf0f2;color:#35454f;border:1px solid #c6d0d5}
+ #detail .detail-text-tabs button[aria-selected="true"]{background:#607987;color:white}
+ #detail .detail-right p{display:none}
+ #detail .detail-right p.active-text{display:block;font-size:var(--fit-copy);line-height:var(--fit-line)}
+ #detail #additionalWorks .additional-work-link img{height:35px}
+}
 </style></head><body><header><b>대구미술 SNS작품전</b><span>명도재 AI 문화예술기업 · 독립 기획전</span></header><div class="hero"><small>DAEGU ART · SNS EXHIBITION</small><h1>대구미술 SNS작품전</h1><p>대구 근대미술의 개척에서 현대 실험미술까지, 4개 전시실에서 33인의 미술 세계를 만나보는 디지털 기획전</p></div><main><section class="stage" id="stage" aria-label="3D 회전 갤러리"><div class="ring" id="ring"></div></section><div class="controls"><button id="prev">← 이전</button><button id="play" class="primary">⏸ 자동 회전 정지</button><button id="next">다음 →</button></div><div class="position" id="position"></div><section class="info"><p class="note">국립현대미술관·서울시립미술관 등 공개된 공식 자료에서 작품명·재료·규격을 확인한 순서대로 등록합니다. 작가 소개와 작품 제원은 등록된 작가 목록에 맞춰 제공합니다. 작품 이미지는 확인된 자료를 우선 표시합니다. 나머지는 자료를 대조하는 중이며, 전시 기획자가 작품 이미지 사용권 확보를 확인했습니다. 다른 작가의 그림을 대체 전시하지 않습니다.</p><h2>작가 33인 전시실</h2><input id="search" placeholder="작가 이름 검색" aria-label="작가 검색"><div class="tabs" id="tabs"></div><div class="list" id="list"></div></section></main><dialog id="detail" aria-label="작가 작품 및 해설">
 <div class="detail-top"><div class="detail-title"><small id="room"></small><h2 id="name"></h2><p id="theme"></p></div><button id="close" type="button">닫기 ×</button></div>
 <div class="detail-layout">
@@ -311,6 +347,7 @@ dialog#detail[open]{
     <a id="sourceLink" class="source-link" target="_blank" rel="noopener noreferrer" hidden>공식 작품 자료 보기 ↗</a>
   </section>
   <section class="detail-right" aria-label="작가 소개 및 작품 평론">
+    <div class="detail-text-tabs" role="tablist" aria-label="작가 설명 선택"><button type="button" data-text-target="workReview" aria-selected="true">해설</button><button type="button" data-text-target="bio" aria-selected="false">소개</button><button type="button" data-text-target="crit" aria-selected="false">평론</button></div>
     <h3>작품 해설</h3><p id="workReview"></p>
     <h3>작가 소개</h3><p id="bio"></p>
     <h3>작품 세계와 평론</h3><p id="crit"></p>
@@ -320,10 +357,33 @@ const data={"rooms":[{"title":"대구 근대미술의 개척자","count":7},{"ti
 function delta(i){let d=i-current;if(d>count/2)d-=count;if(d<-count/2)d+=count;return d}
 function move(){const radius=Math.min(310,Math.max(150,stage.clientWidth*.28));[...ring.children].forEach((el,i)=>{const d=delta(i),active=Math.abs(d)<=3;const x=Math.sin(d*Math.PI/7)*radius*1.65,z=(Math.cos(d*Math.PI/7)-1)*radius*.8;el.style.transform=`translate(-50%,-50%) translate3d(${x}px,${Math.abs(d)*8}px,${z}px) rotateY(${-d*17}deg) scale(${1-Math.abs(d)*.055})`;el.style.opacity=active?String(1-Math.abs(d)*.15):'0';el.style.zIndex=String(count-Math.abs(d));el.style.pointerEvents=active?'auto':'none';el.tabIndex=active?0:-1});let a=artists[current];document.getElementById('position').textContent=`${current+1} / ${count} · ${a.name} · ${a.theme}`}
 function turn(n){current=(current+n+count)%count;move()}
+
+function fitArtistDialog(){
+ if(!dlg.open)return;
+ const mobile=window.matchMedia('(max-width:650px)').matches;
+ const paragraphs=[document.getElementById('workReview'),document.getElementById('bio'),document.getElementById('crit')];
+ const tabButtons=[...dlg.querySelectorAll('.detail-text-tabs button')];
+ if(!tabButtons.some(b=>b.getAttribute('aria-selected')==='true'))tabButtons[0].setAttribute('aria-selected','true');
+ paragraphs.forEach(p=>p.classList.toggle('active-text',!mobile||p.id===tabButtons.find(b=>b.getAttribute('aria-selected')==='true')?.dataset.textTarget));
+ const initial=mobile?11:13,minimum=mobile?9:10;
+ let size=initial;
+ for(;size>=minimum;size-=.25){
+  dlg.style.setProperty('--fit-copy',size+'px');
+  dlg.style.setProperty('--fit-heading',(size+1)+'px');
+  dlg.style.setProperty('--fit-line',size<=10? '1.34':'1.46');
+  if(dlg.scrollHeight<=dlg.clientHeight+2 && dlg.querySelector('.detail-right').scrollHeight<=dlg.clientHeight-dlg.querySelector('.detail-top').offsetHeight-15)break;
+ }
+ if(size<minimum){dlg.style.setProperty('--fit-copy',minimum+'px');dlg.style.setProperty('--fit-heading',(minimum+1)+'px')}
+}
+dlg.querySelectorAll('.detail-text-tabs button').forEach(button=>button.addEventListener('click',()=>{
+ dlg.querySelectorAll('.detail-text-tabs button').forEach(b=>b.setAttribute('aria-selected',String(b===button)));
+ fitArtistDialog();
+}));
+
 function show(i){current=i;move();let a=artists[i];document.getElementById('room').textContent='제'+a.room+'전시실 · '+a.roomTitle;document.getElementById('name').textContent=a.name;document.getElementById('theme').textContent=a.theme;const detailArt=document.getElementById('detailArt');detailArt.replaceChildren();
 dlg.dataset.artOrientation='square';
 if(a.image){const im=document.createElement('img');im.alt=a.name+'의 작품 '+(a.work?.title||'');
-im.onload=()=>{if(!im.isConnected)return;const ratio=im.naturalWidth/im.naturalHeight;dlg.dataset.artOrientation=ratio>=1.15?'landscape':ratio<=0.87?'portrait':'square'};
+im.onload=()=>{if(!im.isConnected)return;const ratio=im.naturalWidth/im.naturalHeight;dlg.dataset.artOrientation=ratio>=1.15?'landscape':ratio<=0.87?'portrait':'square';requestAnimationFrame(fitArtistDialog)};
 im.onerror=()=>{im.remove();detailArt.textContent='작품 이미지 불러오기 실패'};
 detailArt.append(im);im.src=a.image;}
 else{detailArt.textContent='작품 이미지 확보 중'}
@@ -333,10 +393,10 @@ document.getElementById('registrationStatus').textContent=a.image?'✓ 작품 �
 document.getElementById('workReview').textContent=a.workReview||'실물과 작품 제원을 확인한 뒤 300자 이내 해설을 등록합니다.';
 const added=document.getElementById('additionalWorks');added.replaceChildren();added.hidden=!a.additionalWorks?.length;if(a.additionalWorks?.length){const heading=document.createElement('strong');heading.textContent='작가 공식 홈페이지 등록 작품';added.append(heading);a.additionalWorks.forEach(w=>{const link=document.createElement('a');link.href=w.url;link.target='_blank';link.rel='noopener noreferrer';link.className='additional-work-link';link.title=w.year+' · '+w.medium+' · 공식 작품 페이지';if(w.image){const thumb=document.createElement('img');thumb.src=w.image;thumb.alt=a.name+' 작품 '+w.title;thumb.loading='lazy';thumb.onerror=()=>thumb.remove();link.append(thumb)}const label=document.createElement('span');label.textContent='〈'+w.title+'〉 · '+w.dimensions+' ↗';link.append(label);added.append(link)})}
 const artistHome=document.getElementById('artistHomepage');artistHome.hidden=!a.artistHomepage;artistHome.href=a.artistHomepage||'#';artistHome.textContent=a.name+' 작가 공식 홈페이지 · 전체 작품 보기 ↗';
-const src=document.getElementById('sourceLink');src.hidden=!w.source;src.href=w.source||'#';document.getElementById('bio').textContent=a.biography||'공식 약력 자료 검증 후 등록 예정';document.getElementById('crit').textContent=a.critique||'대표 작품 검수 후 평론 등록 예정';dlg.showModal()}
+const src=document.getElementById('sourceLink');src.hidden=!w.source;src.href=w.source||'#';document.getElementById('bio').textContent=a.biography||'공식 약력 자료 검증 후 등록 예정';document.getElementById('crit').textContent=a.critique||'대표 작품 검수 후 평론 등록 예정';dlg.querySelectorAll('.detail-text-tabs button').forEach((b,i)=>b.setAttribute('aria-selected',String(i===0)));dlg.showModal();requestAnimationFrame(fitArtistDialog)}
 artists.forEach((a,i)=>{let b=document.createElement('button');b.type='button';b.className='frame';const artWindow=document.createElement('div');artWindow.className='artwork-window';if(a.image){const im=new Image();im.alt=a.name+' '+(a.work?.title||'전시 작품');im.onload=()=>{const ratio=im.naturalWidth/im.naturalHeight;b.dataset.orientation=ratio>=1.15?'landscape':ratio<=0.87?'portrait':'square'};im.onerror=()=>{im.replaceWith(picture())};artWindow.append(im);im.src=a.image}else artWindow.append(picture());b.append(artWindow);let l=document.createElement('div');l.className='label';l.textContent=a.name+' · '+a.theme;b.append(l);b.onclick=()=>show(i);b.onmouseenter=()=>hover=true;b.onmouseleave=()=>hover=false;b.onfocus=()=>hover=true;b.onblur=()=>hover=false;ring.append(b)});
 function picture(){let el=document.createElement('div');el.className='picture';el.textContent='작품 자료 준비 중';return el}
 let tabs=document.getElementById('tabs'),list=document.getElementById('list');['전체 '+count+'인',...data.rooms.map((x,i)=>'제'+(i+1)+'전시실 · '+x.count+'인')].forEach((title,i)=>{let b=document.createElement('button');b.textContent=title;b.onclick=()=>{roomFilter=i;drawList()};tabs.append(b)});
 function drawList(){let q=document.getElementById('search').value.toLowerCase().trim();list.replaceChildren();[...tabs.children].forEach((b,i)=>b.classList.toggle('active',i===roomFilter));artists.forEach((a,i)=>{if(roomFilter&&a.room!==roomFilter)return;if(!(a.name+' '+a.theme).toLowerCase().includes(q))return;let b=document.createElement('button');b.className='artist';let strong=document.createElement('strong');strong.textContent=a.id+' · '+a.name;let s=document.createElement('span');s.textContent=a.theme;b.append(strong,s);b.onclick=()=>show(i);list.append(b)})}
-document.getElementById('search').oninput=drawList;document.getElementById('prev').onclick=()=>turn(-1);document.getElementById('next').onclick=()=>turn(1);document.getElementById('play').onclick=e=>{paused=!paused;e.currentTarget.textContent=paused?'▶ 자동 회전':'⏸ 자동 회전 정지'};stage.onmouseenter=()=>hover=true;stage.onmouseleave=()=>hover=false;document.getElementById('close').onclick=()=>dlg.close();dlg.addEventListener('close',()=>hover=false);window.addEventListener('resize',move);document.addEventListener('keydown',e=>{if(dlg.open)return;if(e.key==='ArrowRight')turn(1);if(e.key==='ArrowLeft')turn(-1)});drawList();move();setInterval(()=>{if(!paused&&!hover&&!dlg.open)turn(1)},3000);
+document.getElementById('search').oninput=drawList;document.getElementById('prev').onclick=()=>turn(-1);document.getElementById('next').onclick=()=>turn(1);document.getElementById('play').onclick=e=>{paused=!paused;e.currentTarget.textContent=paused?'▶ 자동 회전':'⏸ 자동 회전 정지'};stage.onmouseenter=()=>hover=true;stage.onmouseleave=()=>hover=false;document.getElementById('close').onclick=()=>dlg.close();dlg.addEventListener('close',()=>hover=false);window.addEventListener('resize',()=>{move();fitArtistDialog()});document.addEventListener('keydown',e=>{if(dlg.open)return;if(e.key==='ArrowRight')turn(1);if(e.key==='ArrowLeft')turn(-1)});drawList();move();setInterval(()=>{if(!paused&&!hover&&!dlg.open)turn(1)},3000);
 </script></body></html>
