@@ -399,6 +399,24 @@ dialog#detail[open]{--fit-copy:14px;--fit-heading:15px;--fit-line:1.47;overflow:
 #detail .artist-biography h3{margin:4px 0 3px;padding-bottom:3px}
 #detail .artist-biography #bio,#detail .artist-biography #career{font-size:var(--fit-copy);line-height:var(--fit-line)}
 #detail .artist-biography #career{margin-top:4px;padding-top:4px}
+
+/* Accessible scrolling within square artist information window */
+dialog#detail[open]{
+ overflow-x:hidden!important;
+ overflow-y:auto!important;
+ scrollbar-width:thin!important;
+ scrollbar-color:#8b9aa4 #eef1f3!important;
+ overscroll-behavior:contain;
+ -webkit-overflow-scrolling:touch;
+}
+dialog#detail[open]::-webkit-scrollbar{display:block!important;width:9px}
+dialog#detail[open]::-webkit-scrollbar-track{background:#eef1f3;border-radius:6px}
+dialog#detail[open]::-webkit-scrollbar-thumb{background:#8b9aa4;border:2px solid #eef1f3;border-radius:7px}
+dialog#detail[open]::-webkit-scrollbar-thumb:hover{background:#607884}
+#detail .detail-layout{overflow:visible}
+#detail .detail-left,#detail .detail-right,#detail .artist-biography,
+#detail .review-panel,#detail .critique-panel{overflow:visible}
+@media(max-width:650px){dialog#detail[open]::-webkit-scrollbar{width:6px}}
 </style></head><body><header><b>대구미술 SNS작품전</b><span>명도재 AI 문화예술기업 · 독립 기획전</span></header><div class="hero"><small>DAEGU ART · SNS EXHIBITION</small><h1>대구미술 SNS작품전</h1><p>대구 근대미술의 개척에서 현대 실험미술까지, 4개 전시실에서 35인의 미술 세계를 만나보는 디지털 기획전</p></div><main><section class="stage" id="stage" aria-label="3D 회전 갤러리"><div class="ring" id="ring"></div></section><div class="controls"><button id="prev">← 이전</button><button id="play" class="primary">⏸ 자동 회전 정지</button><button id="next">다음 →</button></div><div class="position" id="position"></div><section class="info"><p class="note">국립현대미술관·서울시립미술관 등 공개된 공식 자료에서 작품명·재료·규격을 확인한 순서대로 등록합니다. 작가 소개와 작품 제원은 등록된 작가 목록에 맞춰 제공합니다. 작품 이미지는 확인된 자료를 우선 표시합니다. 나머지는 자료를 대조하는 중이며, 전시 기획자가 작품 이미지 사용권 확보를 확인했습니다. 다른 작가의 그림을 대체 전시하지 않습니다.</p><h2>작가 35인 전시실</h2><input id="search" placeholder="작가 이름 검색" aria-label="작가 검색"><div class="tabs" id="tabs"></div><div class="list" id="list"></div></section></main><dialog id="detail" aria-label="작가 작품 및 해설">
 <div class="detail-top"><div class="detail-title"><small id="room"></small><h2 id="name"></h2><p id="theme"></p><p id="topWorkTitle" class="top-artwork-title"></p></div><button id="close" type="button">닫기 ×</button></div>
 <div class="detail-layout">
@@ -422,16 +440,10 @@ function turn(n){current=(current+n+count)%count;move()}
 
 function fitArtistDialog(){
  if(!dlg.open)return;
- const top=dlg.querySelector('.detail-top'),layout=dlg.querySelector('.detail-layout');
  const mobile=window.matchMedia('(max-width:650px)').matches;
- const min=mobile?9:11,available=dlg.clientHeight-top.offsetHeight-25;
- let size=mobile?12:15;
- for(;size>=min;size-=0.25){
-  dlg.style.setProperty('--fit-copy',size+'px');dlg.style.setProperty('--fit-heading',(size+1.25)+'px');
-  dlg.style.setProperty('--fit-line',size<=10?'1.3':'1.47');
-  if(layout.scrollHeight<=available+2&&dlg.scrollHeight<=dlg.clientHeight+2)break;
- }
- if(size<min){dlg.style.setProperty('--fit-copy',min+'px');dlg.style.setProperty('--fit-heading',(min+1.25)+'px')}
+ dlg.style.setProperty('--fit-copy',mobile?'12px':'14px');
+ dlg.style.setProperty('--fit-heading',mobile?'13px':'15px');
+ dlg.style.setProperty('--fit-line',mobile?'1.48':'1.58');
 }
 function show(i){current=i;move();let a=artists[i];document.getElementById('room').textContent='제'+a.room+'전시실 · '+a.roomTitle;document.getElementById('name').textContent=a.name;document.getElementById('theme').textContent=a.theme;const detailArt=document.getElementById('detailArt');detailArt.replaceChildren();
 dlg.dataset.artOrientation='square';
