@@ -1291,16 +1291,16 @@
       "source_url": "https://www.artko.kr/~yeongnamiip/board?article_id=9359&menu_id=1393&pm=view",
       "status": "신규 선정 — 대표작·권리·약력 개별 검수 전",
       "work": {
-        "title": null,
-        "medium": null,
-        "dimensions": null,
-        "year": null,
-        "source": null,
-        "image_url": null,
-        "verification": "공개 자료의 작품 제원 미확인",
-        "image_usage": "전시 기획자 사용권 확보 확인"
+        "title": "山韻(산운)",
+        "year": "2013",
+        "medium": "수묵담채",
+        "dimensions": "72.7 × 50.0 cm",
+        "source": "https://artko.kr/~yeongnamiip/board?article_id=9359&menu_id=1393&pm=view",
+        "institution": "아트코리아 · 2013 영남수묵화의 토양전",
+        "verification": "해당 작가 개별 전시 페이지에 작품명·크기·재료·연도 명시",
+        "image_usage": "기획자 사용권 확보 확인"
       },
-      "work_review": "",
+      "work_review": "산의 능선과 먹의 여운을 그린 화면은 가시적인 지형보다 자연에 깃든 울림을 탐색한다. 붓끝이 남긴 농담의 변화와 담채의 기운은 시간에 따라 달라지는 산세의 표정을 드러낸다. 자연을 마음속 울림으로 번역하는 영남 수묵담채의 태도를 보여 준다.",
       "work_status": "대표작 제원 확인 중",
       "biography": "영남 지역에서 수묵담채를 바탕으로 자연의 정취를 그려 온 화가다. 산과 들의 기운을 절제된 먹빛과 옅은 채색으로 표현한다.",
       "critique": "먹과 옅은 색이 만나는 경계는 풍경을 고요하게 감싸는 공기를 만든다. 지나치게 채우지 않은 화면은 관람자가 자신의 기억을 투사할 여백을 남긴다. 영남 산수의 정서를 부드러운 조형 언어로 풀어낸다.",
@@ -1311,7 +1311,10 @@
         "image_saved": false,
         "image_note": null
       },
-      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준"
+      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
+      "image_article_source": "https://artko.kr/~yeongnamiip/board?article_id=9359&menu_id=1393&pm=view",
+      "image_expected_caption": "山韻",
+      "image_status": "공식 전시 도록 작품정보 확인 · 작품 이미지 URL 분리 확인 중"
     },
     {
       "order": 39,
