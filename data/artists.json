@@ -1,29 +1,29 @@
 {
-  "exhibition": "대구미술 40인 거장전",
+  "exhibition": "대구미술 32인 거장전",
   "museum": "NEXORA ART MUSEUM",
-  "status": "40인 선정 기획안 — 작품 이미지 및 사용권 검증 후 정식 전시",
+  "status": "28인 이미지 등록·신규 4인 자료 편성",
   "selection_rule": "대구 출생, 대구를 중심으로 한 활동·교육, 대구 지역 미술사 또는 대구현대미술제의 실질적 관련성",
   "caution": "40인 기획명단은 후보 확정안이며 실제 온라인 작품 전시와 다릅니다. 전국 작가 30인 구 전시 이미지를 새 작가에게 재사용 금지. 개별 작품의 출처와 사용권 확인 필수.",
   "rooms": [
     {
       "room": "01",
       "title": "대구 근대미술의 개척자",
-      "count": 12
+      "count": 7
     },
     {
       "room": "02",
       "title": "대구 현대미술의 성장과 확장",
-      "count": 9
+      "count": 5
     },
     {
       "room": "03",
       "title": "대구 현대·실험미술의 선구자",
-      "count": 9
+      "count": 8
     },
     {
       "room": "04",
       "title": "대구미술의 현재와 원로·중견의 조형 세계",
-      "count": 10
+      "count": 12
     }
   ],
   "artists": [
@@ -134,36 +134,6 @@
     },
     {
       "order": 4,
-      "name": "박명조",
-      "theme": "대구 초기 서양화의 개척",
-      "room": "01",
-      "room_title": "대구 근대미술의 개척자",
-      "status": "선정 후보 — 작품 실물·권리·정확한 소속 검증 전",
-      "work": {
-        "title": "주택가 풍경",
-        "year": "1930년대 추정",
-        "medium": "종이에 유채",
-        "dimensions": "25 × 32.5 cm",
-        "source": "https://v.daum.net/v/20260210155506389",
-        "institution": "대구미술관 2026 신소장품 보고전",
-        "verification": "대구미술관 소장품/전시 기록 작품 캡션",
-        "image_usage": "전시 기획자 권리 확인"
-      },
-      "work_review": "구불거리는 골목과 가옥의 구도는 일상의 장소를 새롭게 바라보는 근대 화가의 시선을 반영한다. 건물과 땅의 경계가 만드는 리듬을 통해 주택가는 단순한 배경에서 독립적인 회화의 주제로 바뀐다. 생활 공간의 조형적 가능성을 일깨우는 작품이다.",
-      "work_status": "대표작 제원 확인 중",
-      "biography": "대구의 근대 서양화 형성기에 활동한 작가로, 새로운 회화 교육과 전람회 문화가 지역에 퍼지는 과정과 연결된다. 당시 서양화의 수용과 개별 작가의 실험을 살피게 한다.",
-      "critique": "근대 초기 회화를 볼 때는 기교만이 아니라 새로운 시각 체계가 어떻게 정착했는가를 함께 읽어야 한다. 인물과 풍경을 바라보는 구도, 명암과 색채의 선택은 시대의 변화가 남긴 조형적 흔적이다.",
-      "profile_review": "대구의 근대 서양화 형성기에 활동한 작가로, 새로운 회화 교육과 전람회 문화가 지역에 퍼지는 과정과 연결된다. 당시 서양화의 수용과 개별 작가의 실험을 살피게 한다.\n근대 초기 회화를 볼 때는 기교만이 아니라 새로운 시각 체계가 어떻게 정착했는가를 함께 읽어야 한다. 인물과 풍경을 바라보는 구도, 명암과 색채의 선택은 시대의 변화가 남긴 조형적 흔적이다.",
-      "registration_validation": {
-        "profile_saved": true,
-        "work_catalogued": false,
-        "image_saved": false,
-        "image_note": null
-      },
-      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준"
-    },
-    {
-      "order": 5,
       "name": "김용조",
       "theme": "근대 인물화와 사실적 시선",
       "room": "01",
@@ -197,37 +167,7 @@
       "image": "assets/artworks/artist-05.webp"
     },
     {
-      "order": 6,
-      "name": "서진달",
-      "theme": "인물 표현과 근대 미술교육",
-      "room": "01",
-      "room_title": "대구 근대미술의 개척자",
-      "status": "선정 후보 — 작품 실물·권리·정확한 소속 검증 전",
-      "work": {
-        "title": "자화상",
-        "year": "제작연도 미확인",
-        "medium": "재료 미확인",
-        "dimensions": "규격 미확인",
-        "source": "https://www.imaeil.com/page/view/2012041707270191719",
-        "institution": "대구미술관 2012 11인의 인물화전",
-        "verification": "공개 신문·미술관 전시 기사에서 작품명 확인",
-        "image_usage": "기획자 사용권 확보 확인"
-      },
-      "work_review": "자신의 얼굴을 화면의 중심에 놓는 자화상은 외적 닮음과 내면의 정서를 동시에 시험한다. 대구 근대 서양화 형성기, 화가가 자기 자신을 어떻게 이미지로 만들었는지 읽을 단서가 된다. 원작의 조형 특성을 정확히 평하기 위한 작품 사진은 추가 확인이 필요하다.",
-      "work_status": "대표작 제원 확인 중",
-      "biography": "대구 근대미술과 지역 미술교육의 흐름에서 살펴볼 작가다. 인물을 중심으로 시대의 감각과 새로운 회화적 표현 방식을 탐색했다.",
-      "critique": "인물의 자세와 화면의 균형은 관람자가 시선의 방향을 따라가게 한다. 단순한 외양의 묘사에서 벗어나 표정과 분위기에 의미를 부여하는 점이 중요하다. 근대 회화가 내면 표현을 획득하는 과정을 비춘다.",
-      "profile_review": "대구 근대미술과 지역 미술교육의 흐름에서 살펴볼 작가다. 인물을 중심으로 시대의 감각과 새로운 회화적 표현 방식을 탐색했다.\n인물의 자세와 화면의 균형은 관람자가 시선의 방향을 따라가게 한다. 단순한 외양의 묘사에서 벗어나 표정과 분위기에 의미를 부여하는 점이 중요하다. 근대 회화가 내면 표현을 획득하는 과정을 비춘다.",
-      "registration_validation": {
-        "profile_saved": true,
-        "work_catalogued": false,
-        "image_saved": false,
-        "image_note": null
-      },
-      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준"
-    },
-    {
-      "order": 7,
+      "order": 5,
       "name": "서석규",
       "theme": "인물화와 시대의 기록",
       "room": "01",
@@ -261,7 +201,7 @@
       "image": "assets/artworks/artist-07.webp"
     },
     {
-      "order": 8,
+      "order": 6,
       "name": "손일봉",
       "theme": "풍경과 인물의 조형 언어",
       "room": "01",
@@ -295,7 +235,7 @@
       "image": "assets/artworks/artist-08.webp"
     },
     {
-      "order": 9,
+      "order": 7,
       "name": "장석수",
       "theme": "근대 인물화의 표현",
       "room": "01",
@@ -329,100 +269,7 @@
       "image": "assets/artworks/artist-09.webp"
     },
     {
-      "order": 10,
-      "name": "주경",
-      "theme": "근대 회화와 인물 연구",
-      "room": "01",
-      "room_title": "대구 근대미술의 개척자",
-      "status": "선정 후보 — 작품 실물·권리·정확한 소속 검증 전",
-      "work": {
-        "title": "파란",
-        "year": "1923",
-        "medium": "회화 · 재료 미확인",
-        "dimensions": "규격 미확인",
-        "source": "https://www.imaeil.com/page/view/2021111110141847169",
-        "institution": "대구문화예술회관 개관 30주년 작고작가전",
-        "verification": "공개 신문·미술관 전시 기사에서 작품명 확인",
-        "image_usage": "기획자 사용권 확보 확인"
-      },
-      "work_review": "1920년대에 시도된 비재현적 회화는 새로운 미술의 세계를 열고자 한 초기 탐색의 상징이다. 제목이 암시하는 움직임과 격동의 감각을 근대기 예술가가 어떻게 새로운 형식으로 받아들였는지 되새기게 한다. 원작 이미지와 제원의 추가 검증이 필요하다.",
-      "work_status": "대표작 제원 확인 중",
-      "biography": "대구 근대미술 전시사 속에서 조명되는 작가다. 인물과 회화적 표현을 통해 새로운 조형 질서를 실험한 지역 미술사의 한 축이다.",
-      "critique": "형태를 묶는 선과 색의 관계는 인물의 재현보다 화면 전체의 질서를 먼저 생각하게 한다. 근대 화가들이 도입한 새로운 구성법이 어떻게 지역의 감각으로 변용되는지 주목할 만하다.",
-      "profile_review": "대구 근대미술 전시사 속에서 조명되는 작가다. 인물과 회화적 표현을 통해 새로운 조형 질서를 실험한 지역 미술사의 한 축이다.\n형태를 묶는 선과 색의 관계는 인물의 재현보다 화면 전체의 질서를 먼저 생각하게 한다. 근대 화가들이 도입한 새로운 구성법이 어떻게 지역의 감각으로 변용되는지 주목할 만하다.",
-      "registration_validation": {
-        "profile_saved": true,
-        "work_catalogued": false,
-        "image_saved": false,
-        "image_note": null
-      },
-      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준"
-    },
-    {
-      "order": 11,
-      "name": "최화수",
-      "theme": "향토회와 초기 서양화 운동",
-      "room": "01",
-      "room_title": "대구 근대미술의 개척자",
-      "status": "선정 후보 — 작품 실물·권리·정확한 소속 검증 전",
-      "work": {
-        "title": "포항항구",
-        "year": "1930년대",
-        "medium": "재료 미확인",
-        "dimensions": "규격 미확인",
-        "source": "https://encykorea.aks.ac.kr/Article/E0071672",
-        "institution": "한국민족문화대백과사전",
-        "verification": "공공기관 소장품 또는 전시기록",
-        "image_usage": "전시 기획자 사용권 확인"
-      },
-      "work_review": "항구는 근대의 교역과 이동을 상징하는 장소다. 대구 향토회 작가가 바다의 장소를 화폭에 옮긴 점은 지역을 넘어서는 근대적 시각의 확장을 보여 준다. 현존 작품의 정확한 구도와 색채가 확인되면 정밀한 형식 분석을 보완할 필요가 있다.",
-      "work_status": "대표작 제원 확인 중",
-      "biography": "대구 근대미술의 초창기 활동과 향토회 주변의 회화적 교류를 살피는 데 중요한 작가다. 지역에서 서양화 전시와 창작 환경이 자라던 시대를 대변한다.",
-      "critique": "향토의 소재가 곧 향토색의 완성을 뜻하지는 않는다. 중요한 것은 지역을 바라보는 새로운 빛과 구도의 선택이다. 작품은 대구 근대미술이 외부 양식을 수용하면서도 자기 시선을 만들어 간 흔적을 읽게 한다.",
-      "profile_review": "대구 근대미술의 초창기 활동과 향토회 주변의 회화적 교류를 살피는 데 중요한 작가다. 지역에서 서양화 전시와 창작 환경이 자라던 시대를 대변한다.\n향토의 소재가 곧 향토색의 완성을 뜻하지는 않는다. 중요한 것은 지역을 바라보는 새로운 빛과 구도의 선택이다. 작품은 대구 근대미술이 외부 양식을 수용하면서도 자기 시선을 만들어 간 흔적을 읽게 한다.",
-      "registration_validation": {
-        "profile_saved": true,
-        "work_catalogued": false,
-        "image_saved": false,
-        "image_note": null
-      },
-      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준"
-    },
-    {
-      "order": 12,
-      "name": "황술조",
-      "theme": "근대적 조형 실험",
-      "room": "01",
-      "room_title": "대구 근대미술의 개척자",
-      "status": "선정 후보 — 작품 실물·권리·정확한 소속 검증 전",
-      "work": {
-        "title": "자화상",
-        "year": "1939",
-        "medium": "캔버스에 유채",
-        "dimensions": "31.5 × 23 cm",
-        "source": "https://www.koreana.or.kr/koreana/na/ntt/selectNttInfo.do?bbsId=1125&nttSn=102080",
-        "institution": "코리아나 미술평론 · 개인 소장 작품 기록",
-        "verification": "공개 전문 전시·평론에 작품 제원 명시",
-        "image_usage": "전시기획자 사용권 확보 확인"
-      },
-      "work_review": "자신의 얼굴을 관찰하는 시선은 단순한 외모의 기록을 넘어 내면을 응시하는 태도로 이어진다. 1939년의 자화상은 서양화의 인체 표현이 근대 한국의 자기 인식과 만나는 장면이다. 작가가 생의 마지막 무렵 남긴 회화라는 점에서도 깊은 여운을 남긴다.",
-      "work_status": "대표작 제원 확인 중",
-      "biography": "대구 근대미술의 조형 실험을 논할 때 등장하는 작가다. 익숙한 사물을 근대적 구성과 색채의 방식으로 바꾸려 했던 시대의 흐름 속에 놓인다.",
-      "critique": "회화적 실험은 대상을 얼마만큼 닮게 그렸느냐보다 화면을 어떤 질서로 조직했느냐에 달려 있다. 형태의 변형과 색의 대비를 통해 당대의 새 미술 언어가 어떤 질문을 던졌는지 살핀다.",
-      "profile_review": "대구 근대미술의 조형 실험을 논할 때 등장하는 작가다. 익숙한 사물을 근대적 구성과 색채의 방식으로 바꾸려 했던 시대의 흐름 속에 놓인다.\n회화적 실험은 대상을 얼마만큼 닮게 그렸느냐보다 화면을 어떤 질서로 조직했느냐에 달려 있다. 형태의 변형과 색의 대비를 통해 당대의 새 미술 언어가 어떤 질문을 던졌는지 살핀다.",
-      "registration_validation": {
-        "profile_saved": true,
-        "work_catalogued": false,
-        "image_saved": false,
-        "image_note": null
-      },
-      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
-      "image_article_source": "https://www.koreana.or.kr/koreana/na/ntt/selectNttInfo.do?bbsId=1125&nttSn=102080",
-      "image_expected_caption": "자화상",
-      "image_status": "작품 제원 확인 · 일치 이미지 탐색"
-    },
-    {
-      "order": 13,
+      "order": 8,
       "name": "정점식",
       "theme": "대구 추상회화와 미술교육",
       "room": "02",
@@ -457,40 +304,7 @@
       "image_note": "동명 작품 중 이미지에 부합하는 개인 소장 76.5×51cm 유채 판본. 대구미술관 소장 79×53cm 나무판 채색 판본과 구별."
     },
     {
-      "order": 14,
-      "name": "변종하",
-      "theme": "우화적 형상과 서정",
-      "room": "02",
-      "room_title": "대구 현대미술의 성장과 확장",
-      "status": "선정 후보 — 작품 실물·권리·정확한 소속 검증 전",
-      "work": {
-        "title": "오리가 있는 풍경",
-        "year": "1976",
-        "medium": "캔버스에 유채",
-        "dimensions": "85.7 × 85.7 cm",
-        "source": "https://www.imaeil.com/page/view/2021042817183597418",
-        "institution": "대구미술관 이건희 컬렉션 기증 보도",
-        "verification": "공개 전시 기사에 작품 캡션·제원 동시 기재",
-        "image_usage": "전시 기획자 사용권 확보 확인"
-      },
-      "work_review": "오리와 자연 풍경의 조화는 일상의 평범한 장면에 우화적 정서를 부여한다. 단순한 형상과 색채의 절제로 구상 속 상상의 여백을 넓히며, 생명의 이야기를 은근한 상징으로 끌어올린다.",
-      "work_status": "대표작 제원 확인 중",
-      "biography": "경북 출신으로 대구와 한국 현대회화의 흐름 속에서 활동한 화가다. 인물과 동물, 우화적 장면을 통해 현실을 은유하는 조형 세계를 펼쳤다.",
-      "critique": "익숙한 형상이 낯선 표정으로 재배치되면서 화면은 현실과 상상이 겹친 무대가 된다. 색의 대비와 상징은 직접적인 설명을 피하면서도 시대적 정서를 전한다. 그의 그림은 이야기의 의미를 관람자에게 맡긴다.",
-      "profile_review": "경북 출신으로 대구와 한국 현대회화의 흐름 속에서 활동한 화가다. 인물과 동물, 우화적 장면을 통해 현실을 은유하는 조형 세계를 펼쳤다.\n익숙한 형상이 낯선 표정으로 재배치되면서 화면은 현실과 상상이 겹친 무대가 된다. 색의 대비와 상징은 직접적인 설명을 피하면서도 시대적 정서를 전한다. 그의 그림은 이야기의 의미를 관람자에게 맡긴다.",
-      "registration_validation": {
-        "profile_saved": true,
-        "work_catalogued": false,
-        "image_saved": false,
-        "image_note": null
-      },
-      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
-      "image_article_source": "https://www.imaeil.com/page/view/2021042817183597418",
-      "image_expected_caption": "오리가 있는 풍경",
-      "image_status": "출처 문서에 작품 이미지 캡션 확인 · 원본 파일 추출 전"
-    },
-    {
-      "order": 15,
+      "order": 9,
       "name": "곽인식",
       "theme": "물질과 표면의 실험",
       "room": "02",
@@ -527,7 +341,7 @@
       "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준"
     },
     {
-      "order": 16,
+      "order": 10,
       "name": "김우조",
       "theme": "판화와 근대 도시 풍경",
       "room": "02",
@@ -561,67 +375,7 @@
       "image": "assets/artworks/artist-16.webp"
     },
     {
-      "order": 17,
-      "name": "김종복",
-      "theme": "풍경의 색채와 서정",
-      "room": "02",
-      "room_title": "대구 현대미술의 성장과 확장",
-      "status": "선정 후보 — 작품 실물·권리·정확한 소속 검증 전",
-      "work": {
-        "title": "바위산",
-        "year": "2008",
-        "medium": "캔버스에 유채",
-        "dimensions": "72.7 × 90.9 cm",
-        "source": "https://art.chosun.com/m/article.html?contid=2024011002044",
-        "institution": "소울아트스페이스 전시 자료·아트조선",
-        "verification": "작가·전시 출처 작품 캡션 확인",
-        "image_usage": "기획자 사용권 확인"
-      },
-      "work_review": "거칠게 치솟는 암봉은 색채와 붓질의 충돌 속에서 생동한다. 바위를 둘러싼 공기와 빛은 묵직한 형상에 유동적인 리듬을 더한다. 자연의 압도적인 규모를 한 화면에 응축하면서도 관람자의 감각에 직접 다가오는 풍경의 힘이 두드러진다.",
-      "work_status": "대표작 제원 확인 중",
-      "biography": "대구·경북 지역과 관련된 회화 활동 속에서 자연 풍경의 색채와 서정을 추구한 작가다. 산과 들, 계절의 표정을 회화적 질서로 옮겨 왔다.",
-      "critique": "색채의 농도와 붓질의 리듬을 따라가면 풍경은 지리적 장소를 넘어 작가의 내면이 된다. 형태의 정확성보다는 자연과 마주한 순간의 온도와 감정이 화면을 지배한다. 서정적 풍경의 현대적 가능성을 보여 준다.",
-      "profile_review": "대구·경북 지역과 관련된 회화 활동 속에서 자연 풍경의 색채와 서정을 추구한 작가다. 산과 들, 계절의 표정을 회화적 질서로 옮겨 왔다.\n색채의 농도와 붓질의 리듬을 따라가면 풍경은 지리적 장소를 넘어 작가의 내면이 된다. 형태의 정확성보다는 자연과 마주한 순간의 온도와 감정이 화면을 지배한다. 서정적 풍경의 현대적 가능성을 보여 준다.",
-      "registration_validation": {
-        "profile_saved": true,
-        "work_catalogued": false,
-        "image_saved": false,
-        "image_note": null
-      },
-      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준"
-    },
-    {
-      "order": 18,
-      "name": "전선택",
-      "theme": "인간과 생활의 표현",
-      "room": "02",
-      "room_title": "대구 현대미술의 성장과 확장",
-      "status": "선정 후보 — 작품 실물·권리·정확한 소속 검증 전",
-      "work": {
-        "title": "후수",
-        "year": "1997",
-        "medium": "캔버스에 유채",
-        "dimensions": "130 × 162 cm",
-        "source": "https://cho-a47.tistory.com/1921",
-        "institution": "대구미술관 소장품 100선 전시 기록",
-        "verification": "대구미술관 소장품/전시 기록 작품 캡션",
-        "image_usage": "전시 기획자 권리 확인"
-      },
-      "work_review": "인물과 공간의 관계를 중심에 놓은 회화적 관심이 드러나는 작업이다. 관찰의 깊이를 통해 대상을 시각적 경험으로 되돌리고, 구상적 표현이 담을 수 있는 개인의 시간과 감정을 생각하게 한다. 실제 작품의 색채와 구도를 직접 살피는 태도가 중요하다.",
-      "work_status": "대표작 제원 확인 중",
-      "biography": "대구 미술계의 근현대 흐름에서 인물과 일상생활을 주요 소재로 다룬 작가다. 현실을 바라보는 눈과 회화의 구성 사이에서 자신의 표현을 찾았다.",
-      "critique": "일상은 평범하기 때문에 오히려 시대를 오래 기억하게 한다. 화면의 인물과 사물은 극적인 사건 없이도 삶의 무게를 전한다. 현실을 회화의 언어로 절제해 담는 태도 자체가 비평적 의미를 갖는다.",
-      "profile_review": "대구 미술계의 근현대 흐름에서 인물과 일상생활을 주요 소재로 다룬 작가다. 현실을 바라보는 눈과 회화의 구성 사이에서 자신의 표현을 찾았다.\n일상은 평범하기 때문에 오히려 시대를 오래 기억하게 한다. 화면의 인물과 사물은 극적인 사건 없이도 삶의 무게를 전한다. 현실을 회화의 언어로 절제해 담는 태도 자체가 비평적 의미를 갖는다.",
-      "registration_validation": {
-        "profile_saved": true,
-        "work_catalogued": false,
-        "image_saved": false,
-        "image_note": null
-      },
-      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준"
-    },
-    {
-      "order": 19,
+      "order": 11,
       "name": "이영륭",
       "theme": "전후 추상회화의 전개",
       "room": "02",
@@ -655,7 +409,7 @@
       "image": "assets/artworks/artist-19.webp"
     },
     {
-      "order": 20,
+      "order": 12,
       "name": "김호득",
       "theme": "수묵의 현대적 확장",
       "room": "02",
@@ -689,37 +443,7 @@
       "image": "assets/artworks/artist-20.webp"
     },
     {
-      "order": 21,
-      "name": "권정호",
-      "theme": "현대적 상징과 인간의 문제",
-      "room": "02",
-      "room_title": "대구 현대미술의 성장과 확장",
-      "status": "선정 후보 — 작품 실물·권리·정확한 소속 검증 전",
-      "work": {
-        "title": "SOUND-84-4",
-        "year": "1984",
-        "medium": "캔버스에 아크릴릭",
-        "dimensions": "130.3 × 97 cm",
-        "source": "https://www.imaeil.com/page/view/2025123015192558646",
-        "institution": "매일신문 · 권정호미술관 전시 안내",
-        "verification": "공개 기사·전시 자료 캡션 확인",
-        "image_usage": "전시 기획자 사용권 확보 확인"
-      },
-      "work_review": "화면 속 스피커의 소리와 강렬한 색의 흔적은 눈으로 볼 수 없는 도시의 감각을 시각화한다. 소음의 이미지가 일상의 불안과 결합하며, 물질화된 소리는 현대적 존재를 성찰하는 기호가 된다. 1980년대 신형상 미술의 실험과 사회적 감수성을 함께 보여 주는 작업이다.",
-      "work_status": "작품 제원 자료 등록 완료",
-      "biography": "대구를 기반으로 활동하며 인간과 사회를 상징적 이미지로 탐구해 온 화가다. 회화뿐 아니라 지역 미술문화의 확장과 전시 활동에도 참여해 왔다.",
-      "critique": "해골과 인체 등 강렬한 상징은 단순한 충격을 위한 장치가 아니라 존재의 불안과 생명의 조건을 질문한다. 무거운 주제를 화면의 리듬으로 변환하는 방식은 예술의 사회적 책임과 성찰을 환기한다.",
-      "profile_review": "대구를 기반으로 활동하며 인간과 사회를 상징적 이미지로 탐구해 온 화가다. 회화뿐 아니라 지역 미술문화의 확장과 전시 활동에도 참여해 왔다.\n해골과 인체 등 강렬한 상징은 단순한 충격을 위한 장치가 아니라 존재의 불안과 생명의 조건을 질문한다. 무거운 주제를 화면의 리듬으로 변환하는 방식은 예술의 사회적 책임과 성찰을 환기한다.",
-      "registration_validation": {
-        "profile_saved": true,
-        "work_catalogued": true,
-        "image_saved": false,
-        "image_note": null
-      },
-      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준"
-    },
-    {
-      "order": 22,
+      "order": 13,
       "name": "이강소",
       "theme": "개념·행위와 회화의 경계",
       "room": "03",
@@ -753,40 +477,7 @@
       "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준"
     },
     {
-      "order": 23,
-      "name": "최병소",
-      "theme": "신문 지우기와 물질의 변형",
-      "room": "03",
-      "room_title": "대구 현대·실험미술의 선구자",
-      "status": "선정 후보 — 작품 실물·권리·정확한 소속 검증 전",
-      "work": {
-        "title": "Untitled 0151116",
-        "year": "2015",
-        "medium": "신문지에 볼펜과 연필",
-        "dimensions": "규격 미확인",
-        "source": "https://www.koreadaily.com/article/20260217184004395",
-        "institution": "미주중앙일보 · 페로탱 전시 보도",
-        "verification": "신문 전시 보도 작품 제목 일치",
-        "image_usage": "기획자 전시 사용권 확인"
-      },
-      "work_review": "신문의 시장 지표와 기사가 남아 있는 상단 아래로 빽빽한 검은 마찰의 흔적이 내려앉는다. 반복된 그리기와 지우기는 정보를 숨기면서도 그 시대의 흔적을 지우지 못한다. 종이 표면에 쌓인 물질과 시간의 밀도가 작품의 형식이 된다.",
-      "work_status": "작품 제원 자료 등록 완료",
-      "biography": "대구 출신으로 신문지와 볼펜, 연필 등을 사용해 표면을 집요하게 지우고 덮는 작업을 펼친 작가다. 한국 실험미술의 독자적인 물성 연구로 알려져 있다.",
-      "critique": "읽을 수 있던 활자는 반복된 행위를 통해 검은 물질적 표면으로 변한다. 정보의 소멸은 새로운 회화적 존재의 출현이 된다. 손의 노동과 시간의 누적이 만들어 낸 화면에서 표현과 삭제는 서로 구분되지 않는다.",
-      "profile_review": "대구 출신으로 신문지와 볼펜, 연필 등을 사용해 표면을 집요하게 지우고 덮는 작업을 펼친 작가다. 한국 실험미술의 독자적인 물성 연구로 알려져 있다.\n읽을 수 있던 활자는 반복된 행위를 통해 검은 물질적 표면으로 변한다. 정보의 소멸은 새로운 회화적 존재의 출현이 된다. 손의 노동과 시간의 누적이 만들어 낸 화면에서 표현과 삭제는 서로 구분되지 않는다.",
-      "registration_validation": {
-        "profile_saved": true,
-        "work_catalogued": true,
-        "image_saved": false,
-        "image_note": null
-      },
-      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
-      "image_source_url": "https://www.koreadaily.com/data/photo/2026/02/18/606695f9-30cb-433e-9322-8b44b7dcf788.jpg",
-      "image_attribution_url": "https://www.koreadaily.com/article/20260217184004395",
-      "image_status": "이미지 다운로드 오류 — 공개 출처 링크 확인"
-    },
-    {
-      "order": 24,
+      "order": 14,
       "name": "이명미",
       "theme": "색채와 놀이의 미학",
       "room": "03",
@@ -820,7 +511,7 @@
       "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준"
     },
     {
-      "order": 25,
+      "order": 15,
       "name": "박현기",
       "theme": "비디오아트와 매체 실험",
       "room": "03",
@@ -857,7 +548,7 @@
       "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준"
     },
     {
-      "order": 26,
+      "order": 16,
       "name": "곽훈",
       "theme": "몸짓과 물질, 대형 회화",
       "room": "03",
@@ -893,7 +584,7 @@
       "image": "assets/artworks/artist-26.webp"
     },
     {
-      "order": 27,
+      "order": 17,
       "name": "황현욱",
       "theme": "사물과 공간의 관계",
       "room": "03",
@@ -929,7 +620,7 @@
       "image": "assets/artworks/artist-27.webp"
     },
     {
-      "order": 28,
+      "order": 18,
       "name": "김영진",
       "theme": "대구현대미술제의 실험 정신",
       "room": "03",
@@ -965,7 +656,7 @@
       "image": "assets/artworks/artist-28.webp"
     },
     {
-      "order": 29,
+      "order": 19,
       "name": "이향미",
       "theme": "색채 자체와 추상",
       "room": "03",
@@ -1001,7 +692,7 @@
       "image": "assets/artworks/artist-29.webp"
     },
     {
-      "order": 30,
+      "order": 20,
       "name": "김기동",
       "theme": "전위미술과 실험적 구성",
       "room": "03",
@@ -1037,38 +728,7 @@
       "image": "assets/artworks/artist-30.webp"
     },
     {
-      "order": 31,
-      "name": "이장우",
-      "theme": "자연 풍경과 점묘적 색채",
-      "room": "04",
-      "room_title": "대구미술의 현재와 원로·중견의 조형 세계",
-      "source_url": "https://www.artko.kr/~jwlee/board?article_id=20904&menu_id=1592&p=1&pm=view",
-      "status": "신규 선정 — 대표작·권리·약력 개별 검수 전",
-      "work": {
-        "title": "밀양위양못의 봄소식",
-        "year": "연도 미확인",
-        "medium": "캔버스에 유채",
-        "dimensions": "60.6 × 90.9 cm",
-        "source": "https://artko.kr/~jwlee/board?article_id=62188&menu_id=1592&pm=view",
-        "institution": "이장우 작가 공식 소개 · 개인전 자료",
-        "verification": "공식 작가 홈페이지 작품 캡션",
-        "image_usage": "전시 기획자 사용권 확보 확인"
-      },
-      "work_review": "호수와 나무, 봄의 기운을 짧은 붓질로 엮으며 자연의 조용한 변화를 포착한다. 물과 빛의 경계를 따라 색이 포개지고, 익숙한 풍경은 개인의 기억이 깃든 장소로 바뀐다. 생명력 있는 색점들이 계절의 온도를 감각적으로 전달한다.",
-      "work_status": "작품 제원 자료 등록 완료",
-      "biography": "대구 미술계에서 자연과 풍경의 변화를 색채의 리듬으로 표현해 온 작가다. 계절과 빛의 인상을 점과 짧은 붓질의 중첩으로 풀어낸다.",
-      "critique": "멀리서 보면 하나의 풍경이지만 가까이서는 수많은 색의 흔적이 살아 움직인다. 색점의 축적은 자연의 표면을 다시 구성하고 빛의 시간을 느끼게 한다. 일상의 풍경을 생동하는 조형 경험으로 바꾸는 점이 특징이다.",
-      "profile_review": "대구 미술계에서 자연과 풍경의 변화를 색채의 리듬으로 표현해 온 작가다. 계절과 빛의 인상을 점과 짧은 붓질의 중첩으로 풀어낸다.\n멀리서 보면 하나의 풍경이지만 가까이서는 수많은 색의 흔적이 살아 움직인다. 색점의 축적은 자연의 표면을 다시 구성하고 빛의 시간을 느끼게 한다. 일상의 풍경을 생동하는 조형 경험으로 바꾸는 점이 특징이다.",
-      "registration_validation": {
-        "profile_saved": true,
-        "work_catalogued": true,
-        "image_saved": false,
-        "image_note": null
-      },
-      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준"
-    },
-    {
-      "order": 32,
+      "order": 21,
       "name": "조홍근",
       "theme": "산수와 수묵의 여백",
       "room": "04",
@@ -1105,7 +765,7 @@
       "image": "assets/artworks/artist-32.webp"
     },
     {
-      "order": 33,
+      "order": 22,
       "name": "이영철",
       "theme": "일상 서정과 공공미술 벽화",
       "room": "04",
@@ -1140,7 +800,7 @@
       "image": "assets/artworks/artist-33.webp"
     },
     {
-      "order": 34,
+      "order": 23,
       "name": "장이규",
       "theme": "소나무 풍경과 상상의 자연",
       "room": "04",
@@ -1177,7 +837,7 @@
       "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준"
     },
     {
-      "order": 35,
+      "order": 24,
       "name": "김일해",
       "theme": "구상회화와 색채 표현",
       "room": "04",
@@ -1212,7 +872,7 @@
       "image": "assets/artworks/artist-35.webp"
     },
     {
-      "order": 36,
+      "order": 25,
       "name": "김일환",
       "theme": "자연과 나무의 조형적 표현",
       "room": "04",
@@ -1248,7 +908,7 @@
       "image": "assets/artworks/artist-36.webp"
     },
     {
-      "order": 37,
+      "order": 26,
       "name": "민병도",
       "theme": "현대적 실경산수와 수묵",
       "room": "04",
@@ -1285,41 +945,7 @@
       "image": "assets/artworks/artist-37.webp"
     },
     {
-      "order": 38,
-      "name": "도병재",
-      "theme": "영남 수묵담채 산수",
-      "room": "04",
-      "room_title": "대구미술의 현재와 원로·중견의 조형 세계",
-      "source_url": "https://www.artko.kr/~yeongnamiip/board?article_id=9359&menu_id=1393&pm=view",
-      "status": "신규 선정 — 대표작·권리·약력 개별 검수 전",
-      "work": {
-        "title": "山韻(산운)",
-        "year": "2013",
-        "medium": "수묵담채",
-        "dimensions": "72.7 × 50.0 cm",
-        "source": "https://artko.kr/~yeongnamiip/board?article_id=9359&menu_id=1393&pm=view",
-        "institution": "아트코리아 · 2013 영남수묵화의 토양전",
-        "verification": "해당 작가 개별 전시 페이지에 작품명·크기·재료·연도 명시",
-        "image_usage": "기획자 사용권 확보 확인"
-      },
-      "work_review": "산의 능선과 먹의 여운을 그린 화면은 가시적인 지형보다 자연에 깃든 울림을 탐색한다. 붓끝이 남긴 농담의 변화와 담채의 기운은 시간에 따라 달라지는 산세의 표정을 드러낸다. 자연을 마음속 울림으로 번역하는 영남 수묵담채의 태도를 보여 준다.",
-      "work_status": "대표작 제원 확인 중",
-      "biography": "영남 지역에서 수묵담채를 바탕으로 자연의 정취를 그려 온 화가다. 산과 들의 기운을 절제된 먹빛과 옅은 채색으로 표현한다.",
-      "critique": "먹과 옅은 색이 만나는 경계는 풍경을 고요하게 감싸는 공기를 만든다. 지나치게 채우지 않은 화면은 관람자가 자신의 기억을 투사할 여백을 남긴다. 영남 산수의 정서를 부드러운 조형 언어로 풀어낸다.",
-      "profile_review": "영남 지역에서 수묵담채를 바탕으로 자연의 정취를 그려 온 화가다. 산과 들의 기운을 절제된 먹빛과 옅은 채색으로 표현한다.\n먹과 옅은 색이 만나는 경계는 풍경을 고요하게 감싸는 공기를 만든다. 지나치게 채우지 않은 화면은 관람자가 자신의 기억을 투사할 여백을 남긴다. 영남 산수의 정서를 부드러운 조형 언어로 풀어낸다.",
-      "registration_validation": {
-        "profile_saved": true,
-        "work_catalogued": false,
-        "image_saved": false,
-        "image_note": null
-      },
-      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
-      "image_article_source": "https://artko.kr/~yeongnamiip/board?article_id=9359&menu_id=1393&pm=view",
-      "image_expected_caption": "山韻",
-      "image_status": "공식 전시 도록 작품정보 확인 · 작품 이미지 URL 분리 확인 중"
-    },
-    {
-      "order": 39,
+      "order": 27,
       "name": "남충모",
       "theme": "구상회화와 지역 미술교육",
       "room": "04",
@@ -1356,7 +982,7 @@
       "image": "assets/artworks/artist-39.webp"
     },
     {
-      "order": 40,
+      "order": 28,
       "name": "노인식",
       "theme": "대구 미술계 활동과 지역 전시",
       "room": "04",
@@ -1389,6 +1015,105 @@
       "image_attribution_url": "https://www.publicart.or.kr/search/search_view.do?art_seq=24363&menuId=1515",
       "image_status": "GitHub 저장 파일 등록 완료",
       "image": "assets/artworks/artist-40.webp"
+    },
+    {
+      "name": "문순만",
+      "theme": "풍경의 감성과 색채의 조화",
+      "room": "04",
+      "biography": "1954년 출생. 계명대학교 미술대학과 대학원을 졸업했으며 대구미술대전 초대작가로 활동했다. 개인전과 국내외 교류전, 유럽 스케치 기행을 통해 풍경과 회화의 가능성을 탐색했다. 대구예술인지원센터에 작품 포트폴리오를 공개했고 갤러리 더블루 관장으로 활동한다.",
+      "critique": "자연과 일상을 향한 장기간의 관찰을 여행에서 얻은 시각적 경험으로 확장한 작가다. 작품을 이해하는 열쇠는 지역에서 출발해 다양한 풍경과 마주한 시간에 있다. 구체적인 작품의 조형언어는 포트폴리오 이미지·작품 제원 확인 후 보강할 예정이다.",
+      "work": {
+        "title": "대구예술인지원센터 공개 포트폴리오",
+        "year": "제작연도 미확인",
+        "medium": "매체 확인 중",
+        "dimensions": "규격 미확인",
+        "source": "https://artistcenter.or.kr/pg/bbs/board.php?bo_table=artist01&wr_id=196",
+        "institution": "대구예술인지원센터 · 작가 공식 포트폴리오",
+        "verification": "작가 프로필과 포트폴리오 존재 확인 · 개별 작품 제목 미확인",
+        "image_usage": "전시 기획자 사용 허락 확인"
+      },
+      "work_review": "작가가 공개한 작품 포트폴리오를 바탕으로 개별 작품의 매체와 형식, 색채를 확인하는 단계다. 작품이 정해지지 않은 상태에서 특정 화면의 구도나 재료를 단정하지 않는다.",
+      "image_article_source": "https://artistcenter.or.kr/pg/bbs/board.php?bo_table=artist01&wr_id=196",
+      "image_status": "공식 작가 포트폴리오 확인 · 작품 이미지 개별 식별 대기",
+      "room_title": "대구미술의 현재와 원로·중견의 조형 세계",
+      "status": "신규 참여 작가",
+      "image": "",
+      "order": 29
+    },
+    {
+      "name": "김봉천",
+      "theme": "은현의 물성·한국화의 실험",
+      "room": "04",
+      "biography": "1959년 출생의 한국화가. 영남대학교에서 한국화를 공부했고, 대구문화예술회관 ‘올해의 중견작가’에 선정되었다. 한지와 먹, 파라핀과 선을 다루는 실험을 이어오다가 2023년 ‘은-현’ 연작에서 캔버스와 아크릴릭으로 확장했다. 전통과 현대 재료 사이의 새로운 조형적 관계를 탐구한다.",
+      "critique": "‘은(隱)-현(現)’은 보이는 것과 가려진 것의 경계를 회화적 사건으로 만든다. 종이를 뜯거나 선을 중첩하는 방식은 사물의 완성된 형태보다 생성과 소멸의 과정을 드러낸다. 전통 한국화의 물질 감각을 현대적 조형 언어로 이동시키는 방식이 중요하다.",
+      "work": {
+        "title": "은-현",
+        "year": "2023년 전시",
+        "medium": "캔버스에 아크릴릭",
+        "dimensions": "규격 미확인",
+        "source": "https://artko.kr/~kimbongcheon/board?article_id=54341&menu_id=2809&pm=view",
+        "institution": "김봉천 공식 작가 홈페이지·달서아트센터 전시 보도",
+        "verification": "공식 작가 홈페이지 작품 이미지 캡션에 연작 제목 및 재료 명시",
+        "image_usage": "전시 기획자 사용 허락 확인"
+      },
+      "work_review": "겹치고 감춰진 형상은 실제 사물의 윤곽을 온전히 알려 주지 않는다. 선과 면 사이에 남겨진 여백은 관람자의 상상력을 호출한다. 캔버스와 아크릴릭으로 번역된 ‘은-현’은 전통 한국화의 사유를 유지하면서 형식의 경계를 허무는 실험이다.",
+      "image_source_url": "https://artko.kr/files/cafe/kimbongcheon/2023/0210/0922/202302100922550001.jpg",
+      "image_attribution_url": "https://artko.kr/~kimbongcheon/board?article_id=54341&menu_id=2809&pm=view",
+      "room_title": "대구미술의 현재와 원로·중견의 조형 세계",
+      "status": "신규 참여 작가",
+      "image_status": "기사 작품 사진 확인 · 저장 중",
+      "image": "",
+      "order": 30
+    },
+    {
+      "name": "장두일",
+      "theme": "채집된 일상과 한지의 시간",
+      "room": "04",
+      "biography": "대구 지역에서 활동하는 한국화가. 한지와 토분, 아교, 먹을 겹쳐 시간의 흔적을 드러내는 작업을 해 왔다. 2024년 갤러리 공감 초대전 《채집된 일상》에서 사람과 가족, 유년의 기억을 다룬 작품을 선보였다. 골판지와 스티로폼 같은 오브제를 이용해 낡은 기와와 옹기의 물성도 탐색한다.",
+      "critique": "기억은 선명한 장면보다 마모된 표면에 오래 남는다. 한지에 반복된 수묵과 토분의 얼룩은 시간의 지층을 만들고, 소박한 인물은 그 안에서 일상의 이야기를 전한다. 익숙한 민속적 감각을 현대적 재료 실험으로 바꾸는 과정에 장두일 회화의 독자성이 있다.",
+      "work": {
+        "title": "새와 소년",
+        "year": "2024",
+        "medium": "한지에 혼합재료",
+        "dimensions": "50 × 65.1 cm",
+        "source": "https://www.imaeil.com/page/view/2024050310173507531",
+        "institution": "매일신문 · 갤러리 공감 《채집된 일상》",
+        "verification": "기사 사진과 캡션에서 작가·제목·재료·규격·연도 확인",
+        "image_usage": "전시 기획자 사용 허락 확인"
+      },
+      "work_review": "작은 소년과 새가 만나는 순간은 거창한 사건이 아니라 유년의 기억을 환기하는 친근한 장면이다. 한지의 거친 표면과 간결한 형태가 겹치면서 실제 시간보다 오래된 이야기가 된다. 여백은 눈에 보이지 않는 감정과 관계를 이어 주는 공간이 된다.",
+      "image_source_url": "https://www.imaeil.com/photos/2024/05/03/2024050310122695021_l.jpg",
+      "image_attribution_url": "https://www.imaeil.com/page/view/2024050310173507531",
+      "room_title": "대구미술의 현재와 원로·중견의 조형 세계",
+      "status": "신규 참여 작가",
+      "image_status": "기사 작품 사진 확인 · 저장 중",
+      "image": "",
+      "order": 31
+    },
+    {
+      "name": "정치환",
+      "theme": "수묵의 율동과 생명감",
+      "room": "04",
+      "biography": "1942년 대구 출생, 2015년 작고한 한국화가. 서울대학교에서 동양화를 전공하고 계명대학교와 영남대학교에서 교육·연구에 힘썼다. 한국화의 발묵과 파묵을 활용해 자연의 생명력과 운동감을 표현했고, 2025년 유족이 주요 작품 21점을 대구미술관에 기증해 지역 한국화의 흐름을 연구할 기반을 넓혔다.",
+      "critique": "선은 형태를 둘러싸는 울타리가 아니라 스스로 생명을 얻는 움직임이 된다. 정치환은 전통 묵법을 해체하지 않으면서 번짐과 농담, 반복되는 필획으로 현대적 율동을 만든다. 자연을 바라보는 명상과 추상적 조형 사이에서 그의 수묵은 깊은 긴장과 해방감을 품는다.",
+      "work": {
+        "title": "초화(草花)",
+        "year": "2016년 추모전 공개",
+        "medium": "종이에 수묵담채(세부 재료 확인 필요)",
+        "dimensions": "규격 미확인",
+        "source": "https://www.imaeil.com/page/view/2016090504100147131",
+        "institution": "매일신문 · J&C아트스페이스 유작전",
+        "verification": "기사 사진과 작품명 캡션에 작가·제목 일치",
+        "image_usage": "전시 기획자 사용 허락 확인"
+      },
+      "work_review": "먹의 자유로운 선들이 풀잎처럼 치솟고, 보랏빛 꽃들이 무게 없는 점으로 흩어진다. 흐린 배경과 강한 먹의 충돌은 바람을 머금은 야생의 생명감을 전한다. 대상의 정확한 윤곽을 생략해도 수묵의 율동만으로 생명의 순간을 느끼게 하는 작업이다.",
+      "image_source_url": "https://www.imaeil.com/photos/2016/09/05/2016090504100168551_l.jpg",
+      "image_attribution_url": "https://www.imaeil.com/page/view/2016090504100147131",
+      "room_title": "대구미술의 현재와 원로·중견의 조형 세계",
+      "status": "신규 참여 작가",
+      "image_status": "기사 작품 사진 확인 · 저장 중",
+      "image": "",
+      "order": 32
     }
   ],
   "reference_urls": [
@@ -1406,7 +1131,7 @@
     "https://www.insaauction.com/service/author_view.html?idx=3426",
     "https://www.imaeil.com/page/view/2025042115210604128"
   ],
-  "total_artists": 40,
+  "total_artists": 32,
   "rights_status": "전시 기획자 확인: 40인 작품 이미지 공개 전시 사용권 확보",
   "rights_confirmed_by": "전시 기획자",
   "registration_summary": {
@@ -1415,5 +1140,29 @@
     "work_records_saved": 12,
     "image_files_confirmed": 7,
     "verification_scope": "GitHub 파일 실재와 데이터 연결 및 코드 문법 검증. 이미지와 특정 작품의 실물 일치, 모든 작품 제원의 독립 검증 및 모바일 실기기 화면 테스트까지 완료했다는 의미가 아님."
+  },
+  "curatorial_revision": {
+    "removed_no_artwork": [
+      "박명조",
+      "서진달",
+      "주경",
+      "최화수",
+      "황술조",
+      "변종하",
+      "김종복",
+      "전선택",
+      "권정호",
+      "최병소",
+      "이장우",
+      "도병재"
+    ],
+    "added": [
+      "문순만",
+      "김봉천",
+      "장두일",
+      "정치환"
+    ],
+    "selection_rule": "기존 이미지 미등록 작가 12명 제외, 요청한 신규 작가 4명 추가",
+    "date": "2026-11-04"
   }
 }
