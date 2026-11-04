@@ -1,7 +1,7 @@
 {
   "exhibition": "대구미술 32인 거장전",
   "museum": "NEXORA ART MUSEUM",
-  "status": "28인 이미지 등록·신규 4인 자료 편성",
+  "status": "기존 28인 작품 이미지 유지 · 신규 4인 작품 수집 중",
   "selection_rule": "대구 출생, 대구를 중심으로 한 활동·교육, 대구 지역 미술사 또는 대구현대미술제의 실질적 관련성",
   "caution": "40인 기획명단은 후보 확정안이며 실제 온라인 작품 전시와 다릅니다. 전국 작가 30인 구 전시 이미지를 새 작가에게 재사용 금지. 개별 작품의 출처와 사용권 확인 필수.",
   "rooms": [
@@ -1023,22 +1023,25 @@
       "biography": "1954년 출생. 계명대학교 미술대학과 대학원을 졸업했으며 대구미술대전 초대작가로 활동했다. 개인전과 국내외 교류전, 유럽 스케치 기행을 통해 풍경과 회화의 가능성을 탐색했다. 대구예술인지원센터에 작품 포트폴리오를 공개했고 갤러리 더블루 관장으로 활동한다.",
       "critique": "자연과 일상을 향한 장기간의 관찰을 여행에서 얻은 시각적 경험으로 확장한 작가다. 작품을 이해하는 열쇠는 지역에서 출발해 다양한 풍경과 마주한 시간에 있다. 구체적인 작품의 조형언어는 포트폴리오 이미지·작품 제원 확인 후 보강할 예정이다.",
       "work": {
-        "title": "대구예술인지원센터 공개 포트폴리오",
-        "year": "제작연도 미확인",
-        "medium": "매체 확인 중",
+        "title": "흔적 연작",
+        "year": "2026년 개인전 출품",
+        "medium": "캔버스에 혼합재료(개별 작품 제원 미확인)",
         "dimensions": "규격 미확인",
-        "source": "https://artistcenter.or.kr/pg/bbs/board.php?bo_table=artist01&wr_id=196",
-        "institution": "대구예술인지원센터 · 작가 공식 포트폴리오",
-        "verification": "작가 프로필과 포트폴리오 존재 확인 · 개별 작품 제목 미확인",
-        "image_usage": "전시 기획자 사용 허락 확인"
+        "source": "https://koreaartnews.com/post/lFpX1BmS",
+        "institution": "코리아아트뉴스 · 갤러리 더블루 개인전",
+        "verification": "기사 내 '문순만 作' 이미지와 흔적 연작 전시 소개 확인. 개별 작품 제목은 미확인",
+        "image_usage": "전시 기획자 허락 확인"
       },
-      "work_review": "작가가 공개한 작품 포트폴리오를 바탕으로 개별 작품의 매체와 형식, 색채를 확인하는 단계다. 작품이 정해지지 않은 상태에서 특정 화면의 구도나 재료를 단정하지 않는다.",
+      "work_review": "검정·회색과 황토색의 질감이 겹치며 형태보다 시간이 지나간 흔적을 드러낸다. 긁히고 덧입혀진 물감의 층은 개인적 기억과 삶의 결을 암시한다. ‘흔적’이라는 주제는 묘사를 넘어 시간의 축적 자체를 회화적 언어로 만든다.",
       "image_article_source": "https://artistcenter.or.kr/pg/bbs/board.php?bo_table=artist01&wr_id=196",
-      "image_status": "공식 작가 포트폴리오 확인 · 작품 이미지 개별 식별 대기",
+      "image_status": "공개 전시 기사 속 작품 사진 URL 확인",
       "room_title": "대구미술의 현재와 원로·중견의 조형 세계",
       "status": "신규 참여 작가",
       "image": "",
-      "order": 29
+      "order": 29,
+      "image_source_url": "https://koreaartnews.cdn.presscon.ai/prod/125/images/20260621/1782002680093_520030237.jpg",
+      "image_attribution_url": "https://koreaartnews.com/post/lFpX1BmS",
+      "image_note": "2026년 문순만 개인전 기사에 '문순만 作'으로 소개된 이미지. 개별 작품명은 미확인."
     },
     {
       "name": "김봉천",
