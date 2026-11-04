@@ -53,7 +53,12 @@ for item in data["artists"]:
             item["image_status"]="신문 이미지 alt에 작가명·작품명 일치 확인"
     url=item.get("image_source_url","")
     if not url.startswith("https://"):continue
-    path=DEST/("artist-%02d.webp"%item["order"])
+    old_file=item.get("image","")
+    if old_file and (ROOT/old_file).is_file():
+        report.append({"artist":item["name"],"status":"cached","file":old_file})
+        continue
+    filename=("new-%02d.webp"%item["order"]) if item["name"] in ("문순만","김봉천","장두일","정치환") else ("artist-%02d.webp"%item["order"])
+    path=DEST/filename
     if path.exists():
         item["image"]="assets/artworks/"+path.name
         report.append({"artist":item["name"],"status":"cached"})
@@ -88,10 +93,10 @@ museum={"rooms":[{"title":r["title"],"count":r["count"]} for r in data["rooms"]]
 for x in data["artists"]:
     museum["artists"].append({"id":str(x["order"]).zfill(2),"name":x["name"],"theme":x["theme"],"room":int(x["room"]),"roomTitle":x["room_title"],"image":x.get("image",""),"biography":x.get("biography",""),"critique":x.get("critique",""),"work":x.get("work",{}),"workReview":x.get("work_review",""),"image_source":x.get("image_source_url",""),"image_credit":x.get("image_attribution_url",""),"image_note":x.get("image_note","")})
 payload=json.dumps(museum,ensure_ascii=False,separators=(",",":")).replace("<","\\u003c")
-html=html[:start]+"const data="+payload+html[stop:]
+html=html[:start]+"const data="+payload+html[stop:]\nhtml=html.replace("대구미술 40인 거장전","대구미술 32인 거장전").replace("작가 40인 전시실","작가 32인 전시실").replace("40인의 미술 세계","32인의 미술 세계")
 work_total=sum(bool(x.get("work",{}).get("title")) for x in data["artists"])
 image_total=sum(bool(x.get("image","")) for x in data["artists"])
-html=re.sub(r"작가 소개·평론 40인, 작품 제원 \\d+건, 작품 이미지 \\d+점",f"작가 소개·평론 40인, 작품 제원 {work_total}건, 작품 이미지 {image_total}점",html)
+html=re.sub(r"작가 소개·평론 \\d+인, 작품 제원 \\d+건, 작품 이미지 \\d+점",f"작가 소개·평론 {len(data[\u0027artists\u0027])}인, 작품 제원 {work_total}건, 작품 이미지 {image_total}점",html)
 INDEX.write_text(html,encoding="utf-8")
 (ROOT/"data/image_report.json").write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 print("SAVED ARTWORK IMAGE FILES: ",sum(r["status"] in ("downloaded","cached") for r in report))
