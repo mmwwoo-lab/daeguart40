@@ -170,16 +170,16 @@
       "room_title": "대구 근대미술의 개척자",
       "status": "선정 후보 — 작품 실물·권리·정확한 소속 검증 전",
       "work": {
-        "title": null,
-        "medium": null,
-        "dimensions": null,
-        "year": null,
-        "source": null,
-        "image_url": null,
-        "verification": "공개 자료의 작품 제원 미확인",
-        "image_usage": "전시 기획자 사용권 확보 확인"
+        "title": "창주 이응창 초상",
+        "year": "1930년대 추정",
+        "medium": "검은 종이에 파스텔",
+        "dimensions": "규격 미확인",
+        "source": "https://www.imaeil.com/page/view/2010122807064422961",
+        "institution": "매일신문 「대구근대미술의 향기」 작가론",
+        "verification": "공개 신문·미술관 전시 기사에서 작품명 확인",
+        "image_usage": "기획자 사용권 확보 확인"
       },
-      "work_review": "",
+      "work_review": "책에 몰입한 젊은 지식인의 옆모습을 검은 종이 바탕 위 파스텔로 포착한다. 안경에 맺힌 빛과 이마의 미묘한 명암, 절제된 자세는 대상의 사색을 보여 준다. 외모보다 정신의 긴장을 담으려는 근대 초상화의 감각이 돋보인다.",
       "work_status": "대표작 제원 확인 중",
       "biography": "대구 근대미술의 형성과 전개 속에서 인물과 현실의 모습을 탐색한 화가다. 지역 작가들의 교류와 전람회 활동을 통해 서양화의 언어가 확장되던 시대를 보여준다.",
       "critique": "인물화는 닮음의 기록을 넘어 대상을 바라보는 작가의 태도를 드러낸다. 표정과 자세, 빛의 분배 속에서 당대 현실을 보는 시선이 발견된다. 근대 회화의 표현과 관찰이 만나는 지점에 주목할 만하다.",
@@ -190,7 +190,10 @@
         "image_saved": false,
         "image_note": null
       },
-      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준"
+      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
+      "image_source_url": "https://www.imaeil.com/photos/2010/12/28/2010122807064423351_m.jpg",
+      "image_attribution_url": "https://www.imaeil.com/page/view/2010122807064422961",
+      "image_status": "기사 원문에서 작품 사진 확인 · GitHub 저장 예정"
     },
     {
       "order": 6,
@@ -200,16 +203,16 @@
       "room_title": "대구 근대미술의 개척자",
       "status": "선정 후보 — 작품 실물·권리·정확한 소속 검증 전",
       "work": {
-        "title": null,
-        "medium": null,
-        "dimensions": null,
-        "year": null,
-        "source": null,
-        "image_url": null,
-        "verification": "공개 자료의 작품 제원 미확인",
-        "image_usage": "전시 기획자 사용권 확보 확인"
+        "title": "자화상",
+        "year": "제작연도 미확인",
+        "medium": "재료 미확인",
+        "dimensions": "규격 미확인",
+        "source": "https://www.imaeil.com/page/view/2012041707270191719",
+        "institution": "대구미술관 2012 11인의 인물화전",
+        "verification": "공개 신문·미술관 전시 기사에서 작품명 확인",
+        "image_usage": "기획자 사용권 확보 확인"
       },
-      "work_review": "",
+      "work_review": "자신의 얼굴을 화면의 중심에 놓는 자화상은 외적 닮음과 내면의 정서를 동시에 시험한다. 대구 근대 서양화 형성기, 화가가 자기 자신을 어떻게 이미지로 만들었는지 읽을 단서가 된다. 원작의 조형 특성을 정확히 평하기 위한 작품 사진은 추가 확인이 필요하다.",
       "work_status": "대표작 제원 확인 중",
       "biography": "대구 근대미술과 지역 미술교육의 흐름에서 살펴볼 작가다. 인물을 중심으로 시대의 감각과 새로운 회화적 표현 방식을 탐색했다.",
       "critique": "인물의 자세와 화면의 균형은 관람자가 시선의 방향을 따라가게 한다. 단순한 외양의 묘사에서 벗어나 표정과 분위기에 의미를 부여하는 점이 중요하다. 근대 회화가 내면 표현을 획득하는 과정을 비춘다.",
@@ -230,16 +233,16 @@
       "room_title": "대구 근대미술의 개척자",
       "status": "선정 후보 — 작품 실물·권리·정확한 소속 검증 전",
       "work": {
-        "title": null,
-        "medium": null,
-        "dimensions": null,
-        "year": null,
-        "source": null,
-        "image_url": null,
-        "verification": "공개 자료의 작품 제원 미확인",
-        "image_usage": "전시 기획자 사용권 확보 확인"
+        "title": "귀가",
+        "year": "제작연도 미확인",
+        "medium": "재료 미확인",
+        "dimensions": "규격 미확인",
+        "source": "https://www.imaeil.com/page/view/2014111407581811784",
+        "institution": "대구문화예술회관 서석규 유작전·매일신문",
+        "verification": "공개 신문·미술관 전시 기사에서 작품명 확인",
+        "image_usage": "기획자 사용권 확보 확인"
       },
-      "work_review": "",
+      "work_review": "집으로 돌아오는 인물의 이야기는 평범한 생활의 한 순간에 시대의 흔적을 담는다. 작품 제목이 환기하는 귀환의 정서는 이동과 정착, 기억과 회복을 함께 떠올리게 한다. 구체적인 화면의 색채와 기법은 원작 대조를 거쳐 보완해야 한다.",
       "work_status": "대표작 제원 확인 중",
       "biography": "대구의 근대 미술 활동과 인물화의 흐름을 보여 주는 작가다. 서양화적 관찰과 대상의 구체적 표현을 바탕으로 인물을 화면의 중심에 놓았다.",
       "critique": "화면 속 인물은 한 시대를 살아간 개인이면서 시대의 초상이기도 하다. 배경과 인물의 긴장, 표정의 절제는 서사의 여백을 만든다. 근대적 사실 묘사가 정서적 해석으로 넘어가는 지점을 살피게 한다.",
@@ -250,7 +253,10 @@
         "image_saved": false,
         "image_note": null
       },
-      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준"
+      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
+      "image_source_url": "https://www.imaeil.com/photos/2014/11/14/2014111407581812434_m.jpg",
+      "image_attribution_url": "https://www.imaeil.com/page/view/2014111407581811784",
+      "image_status": "기사 원문에서 작품 사진 확인 · GitHub 저장 예정"
     },
     {
       "order": 8,
@@ -328,16 +334,16 @@
       "room_title": "대구 근대미술의 개척자",
       "status": "선정 후보 — 작품 실물·권리·정확한 소속 검증 전",
       "work": {
-        "title": null,
-        "medium": null,
-        "dimensions": null,
-        "year": null,
-        "source": null,
-        "image_url": null,
-        "verification": "공개 자료의 작품 제원 미확인",
-        "image_usage": "전시 기획자 사용권 확보 확인"
+        "title": "파란",
+        "year": "1923",
+        "medium": "회화 · 재료 미확인",
+        "dimensions": "규격 미확인",
+        "source": "https://www.imaeil.com/page/view/2021111110141847169",
+        "institution": "대구문화예술회관 개관 30주년 작고작가전",
+        "verification": "공개 신문·미술관 전시 기사에서 작품명 확인",
+        "image_usage": "기획자 사용권 확보 확인"
       },
-      "work_review": "",
+      "work_review": "1920년대에 시도된 비재현적 회화는 새로운 미술의 세계를 열고자 한 초기 탐색의 상징이다. 제목이 암시하는 움직임과 격동의 감각을 근대기 예술가가 어떻게 새로운 형식으로 받아들였는지 되새기게 한다. 원작 이미지와 제원의 추가 검증이 필요하다.",
       "work_status": "대표작 제원 확인 중",
       "biography": "대구 근대미술 전시사 속에서 조명되는 작가다. 인물과 회화적 표현을 통해 새로운 조형 질서를 실험한 지역 미술사의 한 축이다.",
       "critique": "형태를 묶는 선과 색의 관계는 인물의 재현보다 화면 전체의 질서를 먼저 생각하게 한다. 근대 화가들이 도입한 새로운 구성법이 어떻게 지역의 감각으로 변용되는지 주목할 만하다.",
