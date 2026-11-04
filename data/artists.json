@@ -951,7 +951,9 @@
       "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
       "image_article_source": "https://www.yeongnam.com/web/view.php?key=20230614010001686",
       "image_expected_caption": "1974-1",
-      "image_status": "신문 원문과 작품 캡션 확인 · 이미지 자동 수집 대기"
+      "image_status": "전시 기사 작가·작품 캡션과 직접 이미지 링크 대응 확인",
+      "image_source_url": "https://www.yeongnam.com/mnt/file/202306/2023061401000434600016862.jpg",
+      "image_attribution_url": "https://www.yeongnam.com/web/view.php?key=20230614010001686"
     },
     {
       "order": 29,
@@ -1020,7 +1022,9 @@
       "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
       "image_article_source": "https://www.imaeil.com/page/view/2025042814412904285",
       "image_expected_caption": "무제",
-      "image_status": "신문 원문과 작품 캡션 확인 · 이미지 자동 수집 대기"
+      "image_status": "전시 기사 작가·작품 캡션과 직접 이미지 링크 대응 확인",
+      "image_source_url": "https://www.imaeil.com/photos/2025/04/28/2025042814135773313_l.jpg",
+      "image_attribution_url": "https://www.imaeil.com/page/view/2025042814412904285"
     },
     {
       "order": 31,
@@ -1265,7 +1269,9 @@
       "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
       "image_article_source": "https://www.imaeil.com/page/view/2024061110555835358",
       "image_expected_caption": "도법자연 23-1",
-      "image_status": "신문 원문과 작품 캡션 확인 · 이미지 자동 수집 대기"
+      "image_status": "전시 기사 작가·작품 캡션과 직접 이미지 링크 대응 확인",
+      "image_source_url": "https://www.imaeil.com/photos/2024/06/11/2024061110421370229_l.jpg",
+      "image_attribution_url": "https://www.imaeil.com/page/view/2024061110555835358"
     },
     {
       "order": 38,
