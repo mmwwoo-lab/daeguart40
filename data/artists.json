@@ -928,16 +928,16 @@
       "room_title": "대구 현대·실험미술의 선구자",
       "status": "선정 후보 — 작품 실물·권리·정확한 소속 검증 전",
       "work": {
-        "title": null,
-        "medium": null,
-        "dimensions": null,
-        "year": null,
-        "source": null,
-        "image_url": null,
-        "verification": "공개 자료의 작품 제원 미확인",
-        "image_usage": "전시 기획자 사용권 확보 확인"
+        "title": "1974-1",
+        "year": "1974",
+        "medium": "설치·실험미술(세부 재료 미확인)",
+        "dimensions": "규격 미확인",
+        "source": "https://www.yeongnam.com/web/view.php?key=20230614010001686",
+        "institution": "영남일보 · 대구미술관 2023 DArtist 개인전",
+        "verification": "기사 이미지 캡션에 작가·작품명 함께 표기",
+        "image_usage": "전시 기획자 이미지 사용권 확보 확인"
       },
-      "work_review": "",
+      "work_review": "실험미술의 태동기에 등장한 이 작업은 회화·조각이라는 익숙한 분류를 넘어 매체의 경계를 질문한다. 사물이 공간을 점유하는 방식과 관람자의 몸이 이동하는 과정이 작품 읽기의 일부가 된다. 고정된 이미지보다 경험과 행위의 가능성을 열었다는 점이 중요하다.",
       "work_status": "대표작 제원 확인 중",
       "biography": "대구현대미술제의 실험 정신과 연결되는 작가다. 매체와 행위의 경계를 넘나들며 기존 회화 중심의 예술 개념을 재검토했다.",
       "critique": "작품은 고정된 물건이 아니라 특정한 행동과 시간 속에서 발생하는 사건이 될 수 있다. 기록과 실제 경험 사이의 거리가 감상의 새로운 문제가 된다. 대구 실험미술이 남긴 자유로운 사고를 대표하는 관점이다.",
@@ -948,7 +948,10 @@
         "image_saved": false,
         "image_note": null
       },
-      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준"
+      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
+      "image_article_source": "https://www.yeongnam.com/web/view.php?key=20230614010001686",
+      "image_expected_caption": "1974-1",
+      "image_status": "신문 원문과 작품 캡션 확인 · 이미지 자동 수집 대기"
     },
     {
       "order": 29,
@@ -994,16 +997,16 @@
       "room_title": "대구 현대·실험미술의 선구자",
       "status": "선정 후보 — 작품 실물·권리·정확한 소속 검증 전",
       "work": {
-        "title": null,
-        "medium": null,
-        "dimensions": null,
-        "year": null,
-        "source": null,
-        "image_url": null,
-        "verification": "공개 자료의 작품 제원 미확인",
-        "image_usage": "전시 기획자 사용권 확보 확인"
+        "title": "무제",
+        "year": "제작연도 미확인",
+        "medium": "혼합 매체(세부 재료 미확인)",
+        "dimensions": "규격 미확인",
+        "source": "https://www.imaeil.com/page/view/2025042814412904285",
+        "institution": "매일신문 · 대구문화예술회관 2025 회고전",
+        "verification": "기사의 '김기동, 무제' 이미지 캡션과 작가 대응",
+        "image_usage": "전시 기획자 이미지 사용권 확보 확인"
       },
-      "work_review": "",
+      "work_review": "추상의 형태와 매체 실험은 당시 관습적인 회화 언어에 저항하는 질문으로 읽힌다. 김기동은 대구현대미술제 기획에도 참여하며 작업을 단일한 장르의 결과물이 아닌 동시대적 실험으로 확장했다. 이미지의 제작연도와 재료는 별도 도록의 확인이 필요한 상태다.",
       "work_status": "대표작 제원 확인 중",
       "biography": "대구 전위미술의 흐름 속에서 새로운 조형 구성과 표현 방식을 모색한 작가다. 미술의 형식이 변화하는 과정에서 실험적 태도를 보여 주었다.",
       "critique": "전위적 작업의 성취는 낯선 재료 자체보다 그것이 기존 감상의 방식을 어떻게 바꾸는가에 있다. 형식의 해체와 재구성은 예술이 당대 현실에 응답하는 하나의 방식이다. 실험적 구성의 의미를 살핀다.",
@@ -1014,7 +1017,10 @@
         "image_saved": false,
         "image_note": null
       },
-      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준"
+      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
+      "image_article_source": "https://www.imaeil.com/page/view/2025042814412904285",
+      "image_expected_caption": "무제",
+      "image_status": "신문 원문과 작품 캡션 확인 · 이미지 자동 수집 대기"
     },
     {
       "order": 31,
@@ -1236,16 +1242,16 @@
       "source_url": "https://kbmaeil.com/article/201407020103656",
       "status": "신규 선정 — 대표작·권리·약력 개별 검수 전",
       "work": {
-        "title": null,
-        "medium": null,
-        "dimensions": null,
-        "year": null,
-        "source": null,
-        "image_url": null,
-        "verification": "공개 자료의 작품 제원 미확인",
-        "image_usage": "전시 기획자 사용권 확보 확인"
+        "title": "도법자연 23-1",
+        "year": "2023",
+        "medium": "한지에 수묵채색",
+        "dimensions": "300 × 240 cm",
+        "source": "https://www.imaeil.com/page/view/2024061110555835358",
+        "institution": "매일신문 · 수성아트피아 개인전",
+        "verification": "동일 기사에서 작가·제목·재료·규격 캡션 확인",
+        "image_usage": "전시 기획자 이미지 사용권 확보 확인"
       },
-      "work_review": "",
+      "work_review": "화면에 번지는 먹의 운동과 절제된 색채는 자연을 닮게 재현하기보다 자연이 생성되는 질서를 떠올리게 한다. 깊은 먹빛 위로 드러나는 필선의 변화와 여백은 정중동의 울림을 만든다. ‘도법자연’이라는 화제처럼 형태의 분별을 넘어 자연의 흐름을 사유하게 한다.",
       "work_status": "대표작 제원 확인 중",
       "biography": "대구·경북을 기반으로 수묵산수와 문인적 정신을 탐색해 온 작가다. 우리 산천의 구조와 필묵의 절제를 통해 현대적 산수의 가능성을 연구했다.",
       "critique": "산수는 실제 장소의 복사본이 아니라 자연을 바라보는 정신의 형식이다. 담묵의 여운과 선의 변화가 깊이 있는 공간을 만든다. 전통 필묵의 수행성과 현대적 화면 감각을 잇는 시도를 감상할 수 있다.",
@@ -1256,7 +1262,10 @@
         "image_saved": false,
         "image_note": null
       },
-      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준"
+      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
+      "image_article_source": "https://www.imaeil.com/page/view/2024061110555835358",
+      "image_expected_caption": "도법자연 23-1",
+      "image_status": "신문 원문과 작품 캡션 확인 · 이미지 자동 수집 대기"
     },
     {
       "order": 38,
@@ -1335,16 +1344,16 @@
       "source_url": "https://www.imaeil.com/page/view/2025042115210604128",
       "status": "신규 선정 — 대표작·권리·약력 개별 검수 전",
       "work": {
-        "title": null,
-        "medium": null,
-        "dimensions": null,
-        "year": null,
-        "source": null,
-        "image_url": null,
-        "verification": "공개 자료의 작품 제원 미확인",
-        "image_usage": "전시 기획자 사용권 확보 확인"
+        "title": "회화적풍경 the tree 1",
+        "year": "2021년 설치",
+        "medium": "회화(세부 재료 미확인)",
+        "dimensions": "194 × 112 cm",
+        "source": "https://www.publicart.or.kr/search/search_view.do?art_seq=24363&menuId=1515",
+        "institution": "공공미술포털 · 대구 중구 설치 작품",
+        "verification": "공공미술포털 작품명·작가·규격·설치 기록",
+        "image_usage": "전시 기획자 이미지 사용권 확보 확인"
       },
-      "work_review": "",
+      "work_review": "나무의 실루엣을 닮은 수직의 선들이 서로 겹치며 기억 속 숲의 밀도를 만든다. 절제된 회색조 위로 오른쪽 위에 놓인 세 개의 색점은 시선을 움직이는 작은 리듬이 된다. 실제 풍경의 묘사보다 성장과 축적의 시간을 회화의 행위에 겹쳐 놓는 방식이 인상적이다.",
       "work_status": "대표작 제원 확인 중",
       "biography": "대구 화단의 전시와 미술단체 활동을 통해 지역 예술문화에 참여해 온 작가다. 창작 활동과 함께 지역 미술 생태계의 연결에도 역할을 해 왔다.",
       "critique": "한 작가의 가치는 작품의 형식뿐 아니라 동시대와 맺는 관계 속에서도 읽힌다. 개별적 조형 탐구와 공동체적 활동을 함께 검토하면 지역미술의 현장성이 드러난다. 대표작 실물과 작가 자료의 정밀한 대조가 필요하다.",
@@ -1355,7 +1364,10 @@
         "image_saved": false,
         "image_note": null
       },
-      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준"
+      "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
+      "image_source_url": "https://publicart.or.kr/photo/2021/B600/202127110BA24363.jpg",
+      "image_attribution_url": "https://www.publicart.or.kr/search/search_view.do?art_seq=24363&menuId=1515",
+      "image_status": "공공미술포털 작품 이미지 등록 대기"
     }
   ],
   "reference_urls": [
