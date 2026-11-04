@@ -193,7 +193,8 @@
       "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
       "image_source_url": "https://www.imaeil.com/photos/2010/12/28/2010122807064423351_m.jpg",
       "image_attribution_url": "https://www.imaeil.com/page/view/2010122807064422961",
-      "image_status": "기사 원문에서 작품 사진 확인 · GitHub 저장 예정"
+      "image_status": "GitHub 저장 파일 등록 완료",
+      "image": "assets/artworks/artist-05.webp"
     },
     {
       "order": 6,
@@ -256,7 +257,8 @@
       "review_status": "편집 검토용 원고 · 사실 확인은 작품별 출처 기준",
       "image_source_url": "https://www.imaeil.com/photos/2014/11/14/2014111407581812434_m.jpg",
       "image_attribution_url": "https://www.imaeil.com/page/view/2014111407581811784",
-      "image_status": "기사 원문에서 작품 사진 확인 · GitHub 저장 예정"
+      "image_status": "GitHub 저장 파일 등록 완료",
+      "image": "assets/artworks/artist-07.webp"
     },
     {
       "order": 8,
