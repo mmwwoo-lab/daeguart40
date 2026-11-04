@@ -93,7 +93,8 @@ museum={"rooms":[{"title":r["title"],"count":r["count"]} for r in data["rooms"]]
 for x in data["artists"]:
     museum["artists"].append({"id":str(x["order"]).zfill(2),"name":x["name"],"theme":x["theme"],"room":int(x["room"]),"roomTitle":x["room_title"],"image":x.get("image",""),"biography":x.get("biography",""),"critique":x.get("critique",""),"work":x.get("work",{}),"workReview":x.get("work_review",""),"image_source":x.get("image_source_url",""),"image_credit":x.get("image_attribution_url",""),"image_note":x.get("image_note","")})
 payload=json.dumps(museum,ensure_ascii=False,separators=(",",":")).replace("<","\\u003c")
-html=html[:start]+"const data="+payload+html[stop:]\nhtml=html.replace("대구미술 40인 거장전","대구미술 32인 거장전").replace("작가 40인 전시실","작가 32인 전시실").replace("40인의 미술 세계","32인의 미술 세계")
+html=html[:start]+"const data="+payload+html[stop:]
+html=html.replace("대구미술 40인 거장전","대구미술 SNS작품전").replace("대구미술 32인 거장전","대구미술 SNS작품전").replace("작가 40인 전시실","작가 32인 전시실").replace("40인의 미술 세계","32인의 미술 세계")
 artist_total=len(data["artists"])
 work_total=sum(bool(x.get("work",{}).get("title")) for x in data["artists"])
 image_total=sum(bool(x.get("image","")) for x in data["artists"])
