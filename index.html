@@ -208,6 +208,43 @@ dialog#detail[open]{width:min(830px,94vw);max-height:76dvh;padding:9px 13px}
  #detail[data-art-orientation="landscape"] .detail-left #detailArt{height:clamp(105px,19dvh,170px)}
  #detail .detail-right p{font-size:11px;line-height:1.38}
 }
+
+/* Square 1:1 artist detail window, responsive and scroll-safe */
+dialog#detail[open]{
+  box-sizing:border-box;
+  width:min(780px,88vw,88dvh);
+  height:min(780px,88vw,88dvh);
+  aspect-ratio:1 / 1;
+  max-width:88vw;
+  max-height:88dvh;
+  min-height:0;
+  margin:auto;
+  padding:clamp(9px,1.6vmin,16px);
+  overflow-y:auto;
+  overflow-x:hidden;
+  scrollbar-width:thin;
+}
+#detail .detail-layout{grid-template-columns:minmax(0,44%) minmax(0,56%);gap:12px}
+#detail .detail-left #detailArt{height:clamp(145px,29dvh,285px)}
+#detail[data-art-orientation="landscape"] .detail-left #detailArt{height:clamp(135px,24dvh,240px)}
+#detail[data-art-orientation="portrait"] .detail-left #detailArt{height:clamp(170px,37dvh,360px)}
+#detail .detail-left #detailArt img{object-fit:contain}
+@media(max-width:650px){
+ dialog#detail[open]{
+   width:min(96vw,90dvh);
+   height:min(96vw,90dvh);
+   max-width:96vw;
+   max-height:90dvh;
+   aspect-ratio:1 / 1;
+   padding:8px;
+ }
+ #detail .detail-layout{grid-template-columns:minmax(0,45%) minmax(0,55%);gap:7px}
+ #detail .detail-left #detailArt{height:clamp(105px,22vw,175px)}
+ #detail[data-art-orientation="landscape"] .detail-left #detailArt{height:clamp(95px,20vw,160px)}
+ #detail[data-art-orientation="portrait"] .detail-left #detailArt{height:clamp(125px,30vw,210px)}
+ #detail .detail-right p{font-size:10px;line-height:1.35}
+ #detail .detail-right h3{font-size:10px}
+}
 </style></head><body><header><b>대구미술 SNS작품전</b><span>명도재 AI 문화예술기업 · 독립 기획전</span></header><div class="hero"><small>DAEGU ART · SNS EXHIBITION</small><h1>대구미술 SNS작품전</h1><p>대구 근대미술의 개척에서 현대 실험미술까지, 4개 전시실에서 33인의 미술 세계를 만나보는 디지털 기획전</p></div><main><section class="stage" id="stage" aria-label="3D 회전 갤러리"><div class="ring" id="ring"></div></section><div class="controls"><button id="prev">← 이전</button><button id="play" class="primary">⏸ 자동 회전 정지</button><button id="next">다음 →</button></div><div class="position" id="position"></div><section class="info"><p class="note">국립현대미술관·서울시립미술관 등 공개된 공식 자료에서 작품명·재료·규격을 확인한 순서대로 등록합니다. 작가 소개와 작품 제원은 등록된 작가 목록에 맞춰 제공합니다. 작품 이미지는 확인된 자료를 우선 표시합니다. 나머지는 자료를 대조하는 중이며, 전시 기획자가 작품 이미지 사용권 확보를 확인했습니다. 다른 작가의 그림을 대체 전시하지 않습니다.</p><h2>작가 33인 전시실</h2><input id="search" placeholder="작가 이름 검색" aria-label="작가 검색"><div class="tabs" id="tabs"></div><div class="list" id="list"></div></section></main><dialog id="detail" aria-label="작가 작품 및 해설">
 <div class="detail-top"><div class="detail-title"><small id="room"></small><h2 id="name"></h2><p id="theme"></p></div><button id="close" type="button">닫기 ×</button></div>
 <div class="detail-layout">
