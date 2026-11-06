@@ -417,7 +417,11 @@ dialog#detail[open]::-webkit-scrollbar-thumb:hover{background:#607884}
 #detail .detail-left,#detail .detail-right,#detail .artist-biography,
 #detail .review-panel,#detail .critique-panel{overflow:visible}
 @media(max-width:650px){dialog#detail[open]::-webkit-scrollbar{width:6px}}
-</style></head><body><header><b>대구미술 SNS작품전</b><span>명도재 AI 문화예술기업 · 독립 기획전</span></header><div class="hero"><small>DAEGU ART · SNS EXHIBITION</small><h1>대구미술 SNS작품전</h1><p>대구 근대미술의 개척에서 현대 실험미술까지, 4개 전시실에서 35인의 미술 세계를 만나보는 디지털 기획전</p></div><main><section class="stage" id="stage" aria-label="3D 회전 갤러리"><div class="ring" id="ring"></div></section><div class="controls"><button id="prev">← 이전</button><button id="play" class="primary">⏸ 자동 회전 정지</button><button id="next">다음 →</button></div><div class="position" id="position"></div><section class="info"><p class="note">국립현대미술관·서울시립미술관 등 공개된 공식 자료에서 작품명·재료·규격을 확인한 순서대로 등록합니다. 작가 소개와 작품 제원은 등록된 작가 목록에 맞춰 제공합니다. 작품 이미지는 확인된 자료를 우선 표시합니다. 나머지는 자료를 대조하는 중이며, 전시 기획자가 작품 이미지 사용권 확보를 확인했습니다. 다른 작가의 그림을 대체 전시하지 않습니다.</p><h2>작가 35인 전시실</h2><input id="search" placeholder="작가 이름 검색" aria-label="작가 검색"><div class="tabs" id="tabs"></div><div class="list" id="list"></div></section></main><dialog id="detail" aria-label="작가 작품 및 해설">
+
+/* 2026-11-06: enlarge main gallery artworks by 20%, preserving aspect and fit */
+.stage .frame{width:252px;height:342px}
+@media(max-width:650px){.stage .frame{width:156px;height:252px}}
+</style></head><body><header><b>대구미술 SNS작품전</b><span>명도재 AI 문화예술기업 · 독립 기획전</span></header><div class="hero"><small>DAEGU ART · SNS EXHIBITION</small><h1>대구미술 SNS작품전</h1><p>대구 근대미술의 개척에서 현대 실험미술까지, 4개 전시실에서 35인의 미술 세계를 만나보는 디지털 기획전</p></div><main><section class="stage" id="stage" aria-label="3D 회전 갤러리"><div class="ring" id="ring"></div></section><div class="controls"><button id="prev">← 이전</button><button id="play" class="primary">⏸ 자동 회전 정지</button><button id="next">다음 →</button></div><div class="position" id="position"></div><section class="info"><h2>작가 35인 전시실</h2><input id="search" placeholder="작가 이름 검색" aria-label="작가 검색"><div class="tabs" id="tabs"></div><div class="list" id="list"></div></section></main><dialog id="detail" aria-label="작가 작품 및 해설">
 <div class="detail-top"><div class="detail-title"><small id="room"></small><h2 id="name"></h2><p id="theme"></p><p id="topWorkTitle" class="top-artwork-title"></p></div><button id="close" type="button">닫기 ×</button></div>
 <div class="detail-layout">
 <section class="detail-left" aria-label="작품과 작가 소개">
