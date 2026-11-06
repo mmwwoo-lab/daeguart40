@@ -424,6 +424,8 @@ dialog#detail[open]::-webkit-scrollbar-thumb:hover{background:#607884}
 
 /* Artist detail: click artwork to see centered 70% enlargement, click again to return */
 #detail #detailArt:has(img){cursor:zoom-in}
+#detail #detailArt:has(img):focus-visible{outline:3px solid #557a90;outline-offset:3px}
+#detail #artZoom:focus-visible{outline:3px solid #557a90;outline-offset:-5px}
 #detail #artZoom[hidden]{display:none!important}
 #detail #artZoom{position:absolute;inset:0;z-index:50;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:10px;background:rgba(248,249,250,.97);cursor:zoom-out;border-radius:inherit;padding:10px}
 #detail #artZoom img{display:block;width:70%;height:70%;max-width:70%;max-height:70%;object-fit:contain;object-position:center;box-shadow:0 12px 34px rgba(0,0,0,.12);background:transparent}
@@ -456,14 +458,14 @@ function fitArtistDialog(){
  dlg.style.setProperty('--fit-heading',mobile?'13px':'15px');
  dlg.style.setProperty('--fit-line',mobile?'1.48':'1.58');
 }
-function show(i){current=i;move();let a=artists[i];document.getElementById('room').textContent='제'+a.room+'전시실 · '+a.roomTitle;document.getElementById('name').textContent=a.name;document.getElementById('theme').textContent=a.theme;const detailArt=document.getElementById('detailArt');detailArt.replaceChildren();
+function show(i){current=i;move();let a=artists[i];document.getElementById('room').textContent='제'+a.room+'전시실 · '+a.roomTitle;document.getElementById('name').textContent=a.name;document.getElementById('theme').textContent=a.theme;const detailArt=document.getElementById('detailArt');detailArt.replaceChildren();detailArt.tabIndex=a.image?0:-1;detailArt.setAttribute('role',a.image?'button':'img');detailArt.setAttribute('aria-label',a.image?'작품 확대 보기':'작품 이미지 준비 중');
 dlg.dataset.artOrientation='square';
 if(a.image){const im=document.createElement('img');im.alt=a.name+'의 작품 '+(a.work?.title||'');
 im.onload=()=>{if(!im.isConnected)return;const ratio=im.naturalWidth/im.naturalHeight;dlg.dataset.artOrientation=ratio>=1.15?'landscape':ratio<=0.87?'portrait':'square';requestAnimationFrame(fitArtistDialog)};
 im.onerror=()=>{im.remove();detailArt.textContent='작품 이미지 불러오기 실패'};
 detailArt.append(im);im.src=a.image;}
 else{detailArt.textContent='작품 이미지 확보 중'}
-document.getElementById('artZoom').hidden=true;document.getElementById('artZoomImage').removeAttribute('src');
+hideArtZoom(false);
 const w=a.work||{};document.getElementById('topWorkTitle').textContent=w.title?'대표 작품 · 〈'+w.title+'〉':'대표 작품';document.getElementById('work').textContent=w.title?'〈'+w.title+'〉 · '+(w.year||'연도 미상'):'대표작 세부 정보 확인 중';
 document.getElementById('workMeta').textContent=w.title?'재료: '+(w.medium||'미확인')+'  |  규격: '+(w.dimensions||'미확인')+'  |  자료: '+(w.institution||'공개 출처'):'작품명·재료·규격의 공식 자료를 확인하고 있습니다.';
 document.getElementById('registrationStatus').textContent=a.image?'✓ 작품 이미지 표시'+(a.image_note?' · '+a.image_note:''):(w.title?'작품 정보 등록 · 이미지 추가 검증 중':'작품 자료 확인 중');
@@ -476,10 +478,34 @@ function picture(){let el=document.createElement('div');el.className='picture';e
 let tabs=document.getElementById('tabs'),list=document.getElementById('list');['전체 '+count+'인',...data.rooms.map((x,i)=>'제'+(i+1)+'전시실 · '+x.count+'인')].forEach((title,i)=>{let b=document.createElement('button');b.textContent=title;b.onclick=()=>{roomFilter=i;drawList()};tabs.append(b)});
 function drawList(){let q=document.getElementById('search').value.toLowerCase().trim();list.replaceChildren();[...tabs.children].forEach((b,i)=>b.classList.toggle('active',i===roomFilter));artists.forEach((a,i)=>{if(roomFilter&&a.room!==roomFilter)return;if(!(a.name+' '+a.theme).toLowerCase().includes(q))return;let b=document.createElement('button');b.className='artist';let strong=document.createElement('strong');strong.textContent=a.id+' · '+a.name;let s=document.createElement('span');s.textContent=a.theme;b.append(strong,s);b.onclick=()=>show(i);list.append(b)})}
 document.getElementById('search').oninput=drawList;document.getElementById('prev').onclick=()=>turn(-1);document.getElementById('next').onclick=()=>turn(1);document.getElementById('play').onclick=e=>{paused=!paused;e.currentTarget.textContent=paused?'▶ 자동 회전':'⏸ 자동 회전 정지'};stage.onmouseenter=()=>hover=true;stage.onmouseleave=()=>hover=false;const artZoom=document.getElementById('artZoom'),artZoomImage=document.getElementById('artZoomImage');
-document.getElementById('detailArt').addEventListener('click',()=>{const img=document.querySelector('#detailArt img');if(!img||!img.complete||!img.naturalWidth)return;artZoomImage.src=img.currentSrc||img.src;artZoomImage.alt=img.alt+' 확대 보기';artZoom.hidden=false;artZoom.focus()});
-function hideArtZoom(){artZoom.hidden=true;artZoomImage.removeAttribute('src')}
-artZoom.addEventListener('click',hideArtZoom);
-artZoom.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();hideArtZoom()}});
-dlg.addEventListener('keydown',e=>{if(e.key==='Escape'&&!artZoom.hidden){e.preventDefault();e.stopPropagation();hideArtZoom()}},true);
-document.getElementById('close').onclick=()=>dlg.close();dlg.addEventListener('close',()=>hover=false);window.addEventListener('resize',()=>{move();fitArtistDialog()});document.addEventListener('keydown',e=>{if(dlg.open)return;if(e.key==='ArrowRight')turn(1);if(e.key==='ArrowLeft')turn(-1)});drawList();move();setInterval(()=>{if(!paused&&!hover&&!dlg.open)turn(1)},3000);
+const detailArtTrigger=document.getElementById('detailArt');
+function showArtZoom(){
+ const img=detailArtTrigger.querySelector('img');
+ if(!dlg.open||!img||!img.complete||!img.naturalWidth)return;
+ artZoomImage.src=img.currentSrc||img.src;
+ artZoomImage.alt=img.alt+' 확대 보기';
+ artZoom.hidden=false;
+ artZoom.focus();
+}
+function hideArtZoom(restoreFocus=true){
+ if(artZoom.hidden)return;
+ artZoom.hidden=true;
+ artZoomImage.removeAttribute('src');
+ if(restoreFocus&&dlg.open)detailArtTrigger.focus({preventScroll:true});
+}
+detailArtTrigger.addEventListener('click',showArtZoom);
+detailArtTrigger.addEventListener('keydown',e=>{
+ if((e.key==='Enter'||e.key===' ')&&detailArtTrigger.querySelector('img')){
+  e.preventDefault();showArtZoom();
+ }
+});
+artZoom.addEventListener('click',()=>hideArtZoom());
+artZoom.addEventListener('keydown',e=>{
+ if(e.key==='Enter'||e.key===' '){e.preventDefault();e.stopPropagation();hideArtZoom()}
+});
+dlg.addEventListener('cancel',e=>{
+ if(!artZoom.hidden){e.preventDefault();hideArtZoom()}
+});
+document.getElementById('close').onclick=()=>{hideArtZoom(false);dlg.close()};
+dlg.addEventListener('close',()=>{hideArtZoom(false);hover=false});window.addEventListener('resize',()=>{move();fitArtistDialog()});document.addEventListener('keydown',e=>{if(dlg.open)return;if(e.key==='ArrowRight')turn(1);if(e.key==='ArrowLeft')turn(-1)});drawList();move();setInterval(()=>{if(!paused&&!hover&&!dlg.open)turn(1)},3000);
 </script></body></html>
